@@ -483,3 +483,101 @@ LogInit: Object subsystem initialized
 [2017.07.30-17.55.36:330][  1]LogAssetRegistry: Asset discovery search completed in 31.7707 seconds
 [2017.07.30-17.55.36:331][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
 [2017.07.30-17.55.36:331][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2017.07.30-18.01.27:757][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.30-18.01.28:167][941]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.07.30-18.01.34:239][524]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.30-18.01.34:245][524]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.30-18.01.34:253][524]LightingResults: New page: Lighting Build
+[2017.07.30-18.01.34:254][524]LoadErrors: New page: Loading map: Template_Default.umap
+[2017.07.30-18.01.34:255][524]MapCheck: New page: Map Check
+[2017.07.30-18.01.34:255][524]LightingResults: New page: Lighting Build
+[2017.07.30-18.01.34:356][524]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.30-18.01.34:401][524]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.30-18.01.34:445][524]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.30-18.01.34:460][524]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.30-18.01.34:498][524]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.804ms to complete.
+[2017.07.30-18.01.34:498][524]LogFileHelpers: Loading map 'Template_Default' took 0.260
+[2017.07.30-18.01.38:273][966]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.07.30-18.01.38:281][966]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.07.30-18.01.40:239][199]LogEditorActor: Deleted Actor: AtmosphericFog
+[2017.07.30-18.01.40:247][199]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.07.30-18.01.41:717][374]Cmd: TRANSACTION UNDO
+[2017.07.30-18.01.41:717][374]LogEditorTransaction: Undo Delete selection
+[2017.07.30-18.01.41:747][374]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.30-18.01.46:869][958]Cmd: TRANSACTION UNDO
+[2017.07.30-18.01.46:869][958]LogEditorTransaction: Undo Edit Ground Offset
+[2017.07.30-18.01.48:496][151]LogEditorActor: Deleted Actor: AtmosphericFog
+[2017.07.30-18.01.48:503][151]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.07.30-18.01.53:427][733]Cmd: DELETE
+[2017.07.30-18.01.53:427][733]Cmd: ACTOR DELETE
+[2017.07.30-18.01.53:428][733]LogEditorActor: Deleted Actor: ExponentialHeightFog
+[2017.07.30-18.01.53:435][733]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.07.30-18.02.00:802][507]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.30-18.02.00:838][508]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Despair
+[2017.07.30-18.02.00:838][508]LogTemp: CWD: A:\Program Files (x86)\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.30-18.02.00:838][508]LogTemp: Initial Dir: A:\Program Files (x86)\UE_4.16
+[2017.07.30-18.02.00:838][508]LogTemp: Env CWD: A:\Program Files (x86)\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.30-18.02.00:838][508]LogTemp: BranchPath = KEITH/A/Program Files (x86)/UE_4.16/Engine/Binaries --- GameBranchPath = KEITH/A/Program Files (x86)/UE_4.16/Engine/Binaries
+[2017.07.30-18.02.00:848][509]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Keith\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.07.30-18.02.18:301][507]SourceControl: Info On branch master
+[2017.07.30-18.02.18:301][507]SourceControl: Info Changes not staged for commit:
+[2017.07.30-18.02.18:301][507]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.07.30-18.02.18:301][507]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.07.30-18.02.18:301][507]SourceControl: Info 	modified:   Despair/Config/DefaultEngine.ini
+[2017.07.30-18.02.18:301][507]SourceControl: Info 	modified:   Despair/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.07.30-18.02.18:301][507]SourceControl: Info 	modified:   Despair/Saved/Logs/Despair.log
+[2017.07.30-18.02.18:301][507]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.07.30-18.02.22:061][946]SourceControl:Error: Error fatal: Could not switch to '/Temp/': No such file or directory
+[2017.07.30-18.02.23:747][952]SourceControl:Error: Error fatal: Could not switch to '/Temp/': No such file or directory
+[2017.07.30-18.02.37:956][617]SourceControl:Error: Error fatal: Could not switch to '/Temp/': No such file or directory
+[2017.07.30-18.02.43:222][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestMap01" FILE="../../../../../Github/Project/Despair/Content/TestMap01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-18.02.43:255][617]LogSavePackage: Save=23.41ms
+[2017.07.30-18.02.43:255][617]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/TestMap01B80F6E884832281C989CD0A2F1107C87.tmp' to '../../../../../Github/Project/Despair/Content/TestMap01.umap'
+[2017.07.30-18.02.43:256][617]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/TestMap01.umap
+[2017.07.30-18.02.43:378][617]LogFileHelpers: Saving map 'TestMap01' took 1.299
+[2017.07.30-18.02.43:494][631]SourceControl:Error: Error fatal: Could not switch to '/Temp/': No such file or directory
+[2017.07.30-18.02.51:072][518]SourceControl: Info On branch master
+[2017.07.30-18.02.51:072][518]SourceControl: Info Changes to be committed:
+[2017.07.30-18.02.51:072][518]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.07.30-18.02.51:072][518]SourceControl: Info 	new file:   Despair/Content/TestMap01.umap
+[2017.07.30-18.02.51:072][518]SourceControl: Info Changes not staged for commit:
+[2017.07.30-18.02.51:072][518]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.07.30-18.02.51:072][518]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.07.30-18.02.51:072][518]SourceControl: Info 	modified:   Despair/Config/DefaultEngine.ini
+[2017.07.30-18.02.51:072][518]SourceControl: Info 	modified:   Despair/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.07.30-18.02.51:072][518]SourceControl: Info 	modified:   Despair/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.07.30-18.02.51:072][518]SourceControl: Info 	modified:   Despair/Saved/Logs/Despair.log
+[2017.07.30-18.02.51:072][518]SourceControl: Info Untracked files:
+[2017.07.30-18.02.51:072][518]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.07.30-18.02.51:072][518]SourceControl: Info 	Despair/Saved/Config/WorldState/
+[2017.07.30-18.02.51:340][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap01" FILE="../../../../../Github/Project/Despair/Content/Maps/TestMap01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-18.02.51:373][518]LogSavePackage: Save=23.46ms
+[2017.07.30-18.02.51:373][518]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/TestMap0189CC16C14A466E3D79A9F19ED49E0DC1.tmp' to '../../../../../Github/Project/Despair/Content/Maps/TestMap01.umap'
+[2017.07.30-18.02.51:374][518]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Maps/TestMap01.umap
+[2017.07.30-18.02.51:493][518]LogFileHelpers: Saving map 'TestMap01' took 0.194
+[2017.07.30-18.35.08:141][ 68]SourceControl: Info On branch master
+[2017.07.30-18.35.08:141][ 68]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.07.30-18.35.08:141][ 68]SourceControl: Info Changes to be committed:
+[2017.07.30-18.35.08:141][ 68]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.07.30-18.35.08:141][ 68]SourceControl: Info 	new file:   Despair/Content/Maps/TestMap01.umap
+[2017.07.30-18.35.08:141][ 68]SourceControl: Info 	new file:   Despair/Content/TestMap01.umap
+[2017.07.30-18.35.08:141][ 68]SourceControl: Info Changes not staged for commit:
+[2017.07.30-18.35.08:141][ 68]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.07.30-18.35.08:141][ 68]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.07.30-18.35.08:141][ 68]SourceControl: Info 	modified:   Despair/Config/DefaultEngine.ini
+[2017.07.30-18.35.08:141][ 68]SourceControl: Info 	modified:   Despair/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.07.30-18.35.08:141][ 68]SourceControl: Info 	modified:   Despair/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.07.30-18.35.08:141][ 68]SourceControl: Info 	modified:   Despair/Saved/Logs/Despair.log
+[2017.07.30-18.35.08:141][ 68]SourceControl: Info Untracked files:
+[2017.07.30-18.35.08:141][ 68]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.07.30-18.35.08:141][ 68]SourceControl: Info 	Despair/Saved/Config/WorldState/
+[2017.07.30-18.35.08:182][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.30-18.35.30:350][547]LogRenderer: Reallocating scene render targets to support 1432x964 NumSamples 1 (Frame:1).
+[2017.07.30-18.35.31:461][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../Github/Project/Despair/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2017.07.30-18.35.31:471][656]LogSavePackage: Save=4.73ms
+[2017.07.30-18.35.31:471][656]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/Floor_400x400B160721B4A26C3AABBDE06A11CD58545.tmp' to '../../../../../Github/Project/Despair/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.07.30-18.35.31:472][656]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.07.30-18.36.23:777][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap01" FILE="../../../../../Github/Project/Despair/Content/Maps/TestMap01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-18.36.23:813][165]LogSavePackage: Save=22.09ms
+[2017.07.30-18.36.23:813][165]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/TestMap0172E0550746C79124714E2889DE9AEB0B.tmp' to '../../../../../Github/Project/Despair/Content/Maps/TestMap01.umap'
+[2017.07.30-18.36.23:813][165]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Maps/TestMap01.umap
