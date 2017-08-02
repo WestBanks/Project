@@ -1,0 +1,622 @@
+﻿Log file open, 08/01/17 19:37:29
+LogInit:Display: Running engine for game: Despair
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1776981550) SRandInit(1776981550).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 3.439438
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: A:/Program Files (x86)/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.01-23.37.30:481][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.01-23.37.30:481][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.01-23.37.30:595][  0]LogInit: Computer: KEITH
+[2017.08.01-23.37.30:595][  0]LogInit: User: Keith
+[2017.08.01-23.37.30:595][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.01-23.37.30:595][  0]LogInit: High frequency timer resolution =3.220783 MHz
+[2017.08.01-23.37.30:604][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.01-23.37.30:604][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.01-23.37.30:604][  0]LogMemory: Process Physical Memory: 274.19 MB used, 274.19 MB peak
+[2017.08.01-23.37.30:604][  0]LogMemory: Process Virtual Memory: 258.55 MB used, 258.55 MB peak
+[2017.08.01-23.37.30:604][  0]LogMemory: Physical Memory: 5074.97 MB used,  11246.45 MB free, 16321.41 MB total
+[2017.08.01-23.37.30:604][  0]LogMemory: Virtual Memory: 636.05 MB used,  11246.45 MB free, 134217728.00 MB total
+[2017.08.01-23.37.31:215][  0]LogInit: Using OS detected language (en-US).
+[2017.08.01-23.37.31:215][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.01-23.37.31:332][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.01-23.37.35:079][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.01-23.37.35:662][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.08.01-23.37.35:662][  0]LogD3D11RHI:       4059/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.01-23.37.35:663][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.01-23.37.35:663][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.01-23.37.35:663][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.01-23.37.35:670][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.01-23.37.35:670][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.01-23.37.35:670][  0]LogWindows: EnumDisplayDevices:
+[2017.08.01-23.37.35:670][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.08.01-23.37.35:670][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.08.01-23.37.35:670][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.01-23.37.35:671][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.01-23.37.35:671][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.01-23.37.35:671][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.08.01-23.37.35:671][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.08.01-23.37.35:671][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.08.01-23.37.35:671][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.01-23.37.36:228][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.01-23.37.36:566][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.01-23.37.36:673][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../../Github/Project/Despair/Intermediate/Shaders/WorkingDirectory/9696/).
+[2017.08.01-23.37.36:673][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Keith/AppData/Local/Temp/UnrealShaderWorkingDir/C3AD3A644548FC79066836A8BE05333B/'.
+[2017.08.01-23.37.36:681][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.01-23.37.40:050][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.01-23.37.40:085][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.01-23.37.40:120][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.01-23.37.40:156][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.01-23.37.40:214][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.01-23.37.40:249][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.01-23.37.40:283][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.01-23.37.40:320][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.01-23.37.40:364][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.01-23.37.40:416][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.01-23.37.40:450][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.01-23.37.40:484][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.01-23.37.40:518][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.01-23.37.40:552][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.01-23.37.40:587][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.01-23.37.40:656][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.01-23.37.40:656][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.01-23.37.40:681][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.01-23.37.40:843][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.01-23.37.40:865][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.01-23.37.40:899][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.01-23.37.40:935][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.01-23.37.40:969][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.01-23.37.41:006][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.01-23.37.41:006][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.01-23.37.42:192][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.01-23.37.42:596][  0]LogDerivedDataCache: Loaded boot cache 0.40s 90MB C:/Users/Keith/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.01-23.37.42:596][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Keith/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.01-23.37.42:596][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Github/Project/Despair/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.01-23.37.42:596][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.01-23.37.42:596][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Github/Project/Despair/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.01-23.37.42:596][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.01-23.37.42:663][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.01-23.37.42:676][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Keith/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.01-23.37.42:742][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.01-23.37.42:791][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.01-23.37.42:856][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.01-23.37.42:857][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.01-23.37.51:832][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.01-23.37.52:642][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.01-23.37.53:193][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.01-23.37.53:322][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.01-23.37.53:409][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.01-23.37.53:409][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.01-23.37.53:409][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.01-23.37.57:515][  0]LogNetVersion: Despair , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 109746353)
+[2017.08.01-23.37.57:859][  0]LogAssetRegistry: FAssetRegistry took 0.0448 seconds to start up
+[2017.08.01-23.37.57:977][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.064314 seconds
+[2017.08.01-23.37.57:983][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.01-23.37.57:983][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.01-23.37.57:983][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.01-23.37.58:050][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.01-23.38.10:336][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.01-23.38.10:386][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.01-23.38.11:629][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.01-23.38.12:308][  0]SourceControl: Info Source control is disabled
+[2017.08.01-23.38.14:148][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.01-23.38.15:099][  0]LogEngine: Initializing Engine...
+[2017.08.01-23.38.15:125][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.01-23.38.15:695][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.01-23.38.15:695][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.01-23.38.16:111][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.01-23.38.16:198][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.01-23.38.16:214][  0]LogInit: FAudioDevice initialized.
+[2017.08.01-23.38.16:256][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Keith/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.01-23.38.16:263][  0]LogInit: Texture streaming: Enabled
+[2017.08.01-23.38.16:439][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.01-23.38.16:923][  0]LogInit: Transaction tracking system initialized
+[2017.08.01-23.38.17:608][  0]BlueprintLog: New page: Editor Load
+[2017.08.01-23.38.19:274][  0]LocalizationService: Info Localization service is disabled
+[2017.08.01-23.38.20:270][  0]LogConsoleResponse:Display: 
+[2017.08.01-23.38.21:505][  0]LogFileCache: Scanning file cache for directory 'A:/Github/Project/Despair/Content/' took 0.02s
+[2017.08.01-23.38.21:505][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.01-23.38.21:505][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.01-23.38.23:625][  0]Cmd: MAP LOAD FILE="../../../../../Github/Project/Despair/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.01-23.38.23:651][  0]LightingResults: New page: Lighting Build
+[2017.08.01-23.38.23:783][  0]MapCheck: New page: Map Check
+[2017.08.01-23.38.23:783][  0]LightingResults: New page: Lighting Build
+[2017.08.01-23.38.26:299][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.01-23.38.26:752][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.01-23.38.26:822][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.01-23.38.27:285][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 463.509ms to complete.
+[2017.08.01-23.38.27:286][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.669
+[2017.08.01-23.38.28:670][  0]LogCollectionManager: Loaded 0 collections in 0.000739 seconds
+[2017.08.01-23.38.28:820][  0]LogFileCache: Scanning file cache for directory 'A:/Github/Project/Despair/Saved/Collections/' took 0.01s
+[2017.08.01-23.38.28:820][  0]LogFileCache: Scanning file cache for directory 'A:/Github/Project/Despair/Content/Developers/Keith/Collections/' took 0.01s
+[2017.08.01-23.38.28:820][  0]LogFileCache: Scanning file cache for directory 'A:/Github/Project/Despair/Content/Collections/' took 0.01s
+[2017.08.01-23.38.28:820][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000014 seconds
+[2017.08.01-23.38.28:859][  0]LogContentBrowser: Native class hierarchy populated in 0.0348 seconds. Added 2329 classes and 491 folders.
+[2017.08.01-23.38.28:976][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.01-23.38.29:770][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.01-23.38.29:856][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.01-23.38.29:982][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0006 seconds. Added 1 classes and 3 folders.
+[2017.08.01-23.38.30:575][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.01-23.38.30:721][  0]LogSlate: Took 0.024667 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.01-23.38.30:745][  0]LogSlate: Took 0.016262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.01-23.38.30:803][  0]LogSlate: Took 0.025837 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.01-23.38.31:180][  0]LogRenderer: Reallocating scene render targets to support 1132x640 NumSamples 1 (Frame:1).
+[2017.08.01-23.38.31:557][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.01-23.38.31:661][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.01-23.38.31:661][  0]LogLoad: (Engine Initialization) Total time: 72.07 seconds
+[2017.08.01-23.38.31:661][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.50 seconds
+[2017.08.01-23.38.31:661][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.01-23.38.31:661][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.01-23.38.32:002][  0]LogOcInput: OculusInput pre-init called
+[2017.08.01-23.38.32:002][  0]LogHMD: Starting GearVRController plugin
+[2017.08.01-23.38.32:129][  0]SourceControl: Info On branch master
+[2017.08.01-23.38.32:129][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.08.01-23.38.32:129][  0]SourceControl: Info Changes to be committed:
+[2017.08.01-23.38.32:129][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.08.01-23.38.32:129][  0]SourceControl: Info 	deleted:    Despair/Saved/AutoScreenshot.png
+[2017.08.01-23.38.32:129][  0]SourceControl: Info 	deleted:    Despair/Saved/Config/Windows/Editor.ini
+[2017.08.01-23.38.32:129][  0]SourceControl: Info Changes not staged for commit:
+[2017.08.01-23.38.32:129][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.08.01-23.38.32:129][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.08.01-23.38.32:129][  0]SourceControl: Info 	modified:   .gitignore
+[2017.08.01-23.38.32:129][  0]SourceControl: Info 	modified:   Despair/Intermediate/CachedAssetRegistry.bin
+[2017.08.01-23.38.32:129][  0]SourceControl: Info 	deleted:    Despair/Saved/Config/CrashReportClient/UE4CC-Windows-2BE75EE24956BE0ED42A22962AA81114/CrashReportClient.ini
+[2017.08.01-23.38.32:129][  0]SourceControl: Info 	modified:   Despair/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.08.01-23.38.32:129][  0]SourceControl: Info 	modified:   Despair/Saved/Config/Windows/Engine.ini
+[2017.08.01-23.38.32:129][  0]SourceControl: Info 	modified:   Despair/Saved/Logs/Despair.log
+[2017.08.01-23.38.32:129][  0]SourceControl: Info Untracked files:
+[2017.08.01-23.38.32:129][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.08.01-23.38.32:129][  0]SourceControl: Info 	Despair/Saved/Config/CrashReportClient/UE4CC-Windows-92AC866A4D459F822E798D9A8780E1BA/
+[2017.08.01-23.38.32:129][  0]SourceControl: Info 	Despair/Saved/Config/CrashReportClient/UE4CC-Windows-C27B9D07458234C600684E93407FF810/
+[2017.08.01-23.38.32:129][  0]SourceControl: Info 	Despair/Saved/Logs/Despair-backup-2017.07.31-22.26.24.log
+[2017.08.01-23.38.32:129][  0]SourceControl: Info 	Despair/Saved/Logs/Despair-backup-2017.08.01-19.37.29.log
+[2017.08.01-23.38.32:135][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.01-23.38.32:360][  1]LogAssetRegistry: Asset discovery search completed in 34.5226 seconds
+[2017.08.01-23.38.32:362][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.01-23.38.32:362][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2017.08.01-23.38.36:530][ 13]LogSlate: Took 0.047760 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.01-23.39.08:766][ 53]Cmd: MAP LOAD FILE="../../../../../Github/Project/Despair/Content/Maps/TestMap01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.01-23.39.08:789][ 53]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.01-23.39.08:799][ 53]LightingResults: New page: Lighting Build
+[2017.08.01-23.39.08:799][ 53]LoadErrors: New page: Loading map: TestMap01.umap
+[2017.08.01-23.39.08:839][ 53]MapCheck: New page: Map Check
+[2017.08.01-23.39.08:839][ 53]LightingResults: New page: Lighting Build
+[2017.08.01-23.39.09:664][ 53]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.01-23.39.10:178][ 53]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.01-23.39.10:244][ 53]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.01-23.39.10:284][ 53]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.96ms to complete.
+[2017.08.01-23.39.10:284][ 53]LogFileHelpers: Loading map 'TestMap01' took 1.526
+[2017.08.01-23.39.13:042][344]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-23.39.13:533][344]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.39.13:533][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-23.39.13:570][344]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 3:39:13 PM)
+[2017.08.01-23.39.13:570][344]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.01-23.39.13:823][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.253596s)
+[2017.08.01-23.39.13:824][344]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.01-23.39.13:824][344]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2017.08.01-23.39.13:824][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.254574s)
+[2017.08.01-23.39.13:840][344]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.01-23.39.13:851][344]LogInit: FAudioDevice initialized.
+[2017.08.01-23.39.13:916][344]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.01-23.39.13:984][344]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-19.39.13
+[2017.08.01-23.39.14:021][344]LogWorld: Bringing up level for play took: 0.095576
+[2017.08.01-23.39.14:112][344]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.01-23.39.14:153][344]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 0.948
+[2017.08.01-23.39.14:154][344]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.39.43:422][794]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.39.43:494][794]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.39.46:609][109]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.01-23.39.47:144][127]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.01-23.39.48:238][239]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.01-23.39.52:231][670]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.01-23.39.52:927][751]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-23.39.52:944][751]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.39.52:944][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-23.39.52:944][751]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 3:39:52 PM)
+[2017.08.01-23.39.52:944][751]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.01-23.39.53:028][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083997s)
+[2017.08.01-23.39.53:028][751]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.01-23.39.53:028][751]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2017.08.01-23.39.53:028][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.084819s)
+[2017.08.01-23.39.53:045][751]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.01-23.39.53:055][751]LogInit: FAudioDevice initialized.
+[2017.08.01-23.39.53:085][751]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.01-23.39.53:111][751]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-19.39.53
+[2017.08.01-23.39.53:123][751]LogWorld: Bringing up level for play took: 0.037043
+[2017.08.01-23.39.53:128][751]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.078
+[2017.08.01-23.39.53:128][751]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.40.19:808][943]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.40.19:852][943]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.40.21:846][175]LogEditorViewport: Clicking on Actor (LMB): SwapCollisionPlatform01_C (SwapCollisionPlatform82)
+[2017.08.01-23.40.23:125][320]LogEditorViewport: Clicking on Actor (CTRL LMB): SwapCollisionPlatform01_C (SwapCollisionPlatform81)
+[2017.08.01-23.40.23:872][404]LogEditorViewport: Clicking on Actor (LMB): SwapCollisionPlatform01_C (SwapCollisionPlatform101)
+[2017.08.01-23.40.24:907][519]LogEditorViewport: Clicking on Actor (LMB): SwapCollisionPlatform01_C (SwapCollisionPlatform101)
+[2017.08.01-23.40.25:485][583]LogEditorViewport: Clicking on Actor (CTRL LMB): SwapCollisionPlatform01_C (SwapCollisionPlatform104)
+[2017.08.01-23.40.25:958][635]LogEditorViewport: Clicking on Actor (CTRL LMB): SwapCollisionPlatform01_C (SwapCollisionPlatform85)
+[2017.08.01-23.40.26:758][726]Cmd: TRANSACTION UNDO
+[2017.08.01-23.40.26:758][726]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.01-23.40.26:783][726]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.01-23.40.27:177][769]LogEditorViewport: Clicking on Actor (CTRL LMB): SwapCollisionPlatform01_C (SwapCollisionPlatform105)
+[2017.08.01-23.40.27:461][796]LogEditorViewport: Clicking on Actor (CTRL LMB): SwapCollisionPlatform01_C (SwapCollisionPlatform106)
+[2017.08.01-23.40.29:597][ 47]LogEditorViewport: Clicking on Actor (LMB): SwapCollisionPlatform01_C (SwapCollisionPlatform126)
+[2017.08.01-23.40.33:620][523]LogEditorViewport: Clicking on Actor (LMB): SwapCollisionPlatform01_C (SwapCollisionPlatform24)
+[2017.08.01-23.40.34:102][575]LogEditorViewport: Clicking Background
+[2017.08.01-23.40.45:120][887]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-23.40.45:136][887]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.40.45:136][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-23.40.45:136][887]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 3:40:45 PM)
+[2017.08.01-23.40.45:136][887]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.01-23.40.45:218][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082081s)
+[2017.08.01-23.40.45:219][887]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.01-23.40.45:219][887]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2017.08.01-23.40.45:219][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.082890s)
+[2017.08.01-23.40.45:238][887]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.01-23.40.45:248][887]LogInit: FAudioDevice initialized.
+[2017.08.01-23.40.45:279][887]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.01-23.40.45:305][887]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-19.40.45
+[2017.08.01-23.40.45:317][887]LogWorld: Bringing up level for play took: 0.036668
+[2017.08.01-23.40.45:322][887]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 0.116
+[2017.08.01-23.40.45:322][887]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.41.28:546][ 68]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.41.28:586][ 68]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.41.36:845][ 53]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-23.41.36:861][ 53]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.41.36:861][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-23.41.36:861][ 53]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 3:41:36 PM)
+[2017.08.01-23.41.36:861][ 53]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.01-23.41.36:940][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079531s)
+[2017.08.01-23.41.36:941][ 53]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.01-23.41.36:941][ 53]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2017.08.01-23.41.36:941][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.080445s)
+[2017.08.01-23.41.36:961][ 53]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.01-23.41.36:971][ 53]LogInit: FAudioDevice initialized.
+[2017.08.01-23.41.36:999][ 53]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.01-23.41.37:026][ 53]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-19.41.37
+[2017.08.01-23.41.37:038][ 53]LogWorld: Bringing up level for play took: 0.037482
+[2017.08.01-23.41.37:042][ 53]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.164
+[2017.08.01-23.41.37:043][ 53]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.41.55:174][221]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.41.55:210][221]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.43.50:058][768]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.01-23.43.50:324][768]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.08.01-23.43.51:590][768]LogSlate: Took 0.017289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.01-23.43.52:025][769]LogSlate: Took 0.016020 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.01-23.44.26:242][811]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.01-23.44.26:872][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.01-23.44.26:958][844]LogSavePackage: Save=77.30ms
+[2017.08.01-23.44.26:958][844]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP8F55479440BE14B60DDBE4A6AA1A8C6A.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.01-23.44.26:959][844]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.01-23.44.41:804][503]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.01-23.44.42:305][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.01-23.44.42:369][533]LogSavePackage: Save=60.49ms
+[2017.08.01-23.44.42:369][533]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP29D9053C459C80FF19AA5E921E982039.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.01-23.44.42:369][533]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.01-23.44.46:025][906]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.01-23.44.46:366][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.01-23.44.46:428][918]LogSavePackage: Save=58.81ms
+[2017.08.01-23.44.46:428][918]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BPB06F05A342E7CD6150FC9595F50A4E1E.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.01-23.44.46:430][918]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.01-23.44.47:175][996]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-23.44.47:197][996]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.44.47:197][996]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-23.44.47:197][996]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 3:44:47 PM)
+[2017.08.01-23.44.47:197][996]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.01-23.44.47:279][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082049s)
+[2017.08.01-23.44.47:279][996]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.01-23.44.47:279][996]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2017.08.01-23.44.47:280][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.082904s)
+[2017.08.01-23.44.47:306][996]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.01-23.44.47:317][996]LogInit: FAudioDevice initialized.
+[2017.08.01-23.44.47:352][996]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.01-23.44.47:380][996]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-19.44.47
+[2017.08.01-23.44.47:392][996]LogWorld: Bringing up level for play took: 0.039344
+[2017.08.01-23.44.47:397][996]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 0.191
+[2017.08.01-23.44.47:398][996]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.44.54:486][757]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.44.54:527][757]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.45.49:899][382]LogEditorTransaction: Undo Move Node
+[2017.08.01-23.45.58:384][245]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.01-23.45.58:887][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.01-23.45.58:953][260]LogSavePackage: Save=61.42ms
+[2017.08.01-23.45.58:953][260]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP2659E9FF40B2A503FA6C0082692B9CAD.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.01-23.45.58:954][260]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.01-23.46.16:544][184]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.01-23.46.17:007][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.01-23.46.17:074][209]LogSavePackage: Save=64.26ms
+[2017.08.01-23.46.17:075][209]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP4862FCED4611D11F80FF58B6FF442D6A.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.01-23.46.17:076][209]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.01-23.46.17:810][284]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-23.46.17:828][284]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.46.17:828][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-23.46.17:828][284]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 3:46:17 PM)
+[2017.08.01-23.46.17:828][284]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.01-23.46.17:911][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083118s)
+[2017.08.01-23.46.17:912][284]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.01-23.46.17:912][284]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2017.08.01-23.46.17:912][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.083989s)
+[2017.08.01-23.46.17:933][284]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.01-23.46.17:944][284]LogInit: FAudioDevice initialized.
+[2017.08.01-23.46.17:974][284]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.01-23.46.18:002][284]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-19.46.18
+[2017.08.01-23.46.18:013][284]LogWorld: Bringing up level for play took: 0.038302
+[2017.08.01-23.46.18:019][284]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 0.812
+[2017.08.01-23.46.18:019][284]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.46.24:950][ 47]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.46.24:988][ 47]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.46.36:466][249]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.01-23.46.36:998][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.01-23.46.37:068][280]LogSavePackage: Save=66.38ms
+[2017.08.01-23.46.37:068][280]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP0368704F48A9BDBFA94F4D87C8A5DAAA.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.01-23.46.37:069][280]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.01-23.46.37:772][351]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-23.46.37:789][351]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.46.37:789][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-23.46.37:789][351]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 3:46:37 PM)
+[2017.08.01-23.46.37:789][351]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.01-23.46.37:868][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079508s)
+[2017.08.01-23.46.37:869][351]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.01-23.46.37:869][351]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2017.08.01-23.46.37:869][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.080310s)
+[2017.08.01-23.46.37:890][351]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.01-23.46.37:900][351]LogInit: FAudioDevice initialized.
+[2017.08.01-23.46.37:928][351]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.01-23.46.37:953][351]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-19.46.37
+[2017.08.01-23.46.37:965][351]LogWorld: Bringing up level for play took: 0.036098
+[2017.08.01-23.46.37:970][351]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 0.764
+[2017.08.01-23.46.37:970][351]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.46.41:852][779]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.46.41:892][779]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.48.21:058][423]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.01-23.48.21:506][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.01-23.48.21:574][450]LogSavePackage: Save=64.47ms
+[2017.08.01-23.48.21:574][450]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BPDE9C0E734BB0C6CCD959EEB10D5A29EC.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.01-23.48.21:575][450]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.01-23.48.22:296][530]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-23.48.22:313][530]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.48.22:313][530]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-23.48.22:313][530]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 3:48:22 PM)
+[2017.08.01-23.48.22:313][530]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.01-23.48.22:395][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081057s)
+[2017.08.01-23.48.22:395][530]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.01-23.48.22:396][530]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2017.08.01-23.48.22:396][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.082040s)
+[2017.08.01-23.48.22:416][530]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.01-23.48.22:426][530]LogInit: FAudioDevice initialized.
+[2017.08.01-23.48.22:456][530]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.01-23.48.22:482][530]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-19.48.22
+[2017.08.01-23.48.22:494][530]LogWorld: Bringing up level for play took: 0.036483
+[2017.08.01-23.48.22:498][530]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.707
+[2017.08.01-23.48.22:499][530]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.48.27:039][ 53]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.48.27:076][ 53]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.48.37:561][184]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.01-23.48.37:974][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.01-23.48.38:040][206]LogSavePackage: Save=62.21ms
+[2017.08.01-23.48.38:040][206]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP1A4C5F974612CB9479438F9001B2F60B.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.01-23.48.38:041][206]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.01-23.48.38:917][303]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-23.48.38:934][303]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.48.38:934][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-23.48.38:934][303]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 3:48:38 PM)
+[2017.08.01-23.48.38:934][303]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.01-23.48.39:014][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079112s)
+[2017.08.01-23.48.39:014][303]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.01-23.48.39:014][303]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2017.08.01-23.48.39:015][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.079968s)
+[2017.08.01-23.48.39:036][303]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.01-23.48.39:045][303]LogInit: FAudioDevice initialized.
+[2017.08.01-23.48.39:076][303]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.01-23.48.39:103][303]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-19.48.39
+[2017.08.01-23.48.39:114][303]LogWorld: Bringing up level for play took: 0.037002
+[2017.08.01-23.48.39:119][303]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.087
+[2017.08.01-23.48.39:119][303]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.48.41:728][610]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.48.41:764][610]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.48.53:897][682]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.01-23.48.53:937][683]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Despair
+[2017.08.01-23.48.53:937][683]LogTemp: CWD: A:\Program Files (x86)\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.01-23.48.53:937][683]LogTemp: Initial Dir: A:\Program Files (x86)\UE_4.16
+[2017.08.01-23.48.53:937][683]LogTemp: Env CWD: A:\Program Files (x86)\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.01-23.48.53:937][683]LogTemp: BranchPath = KEITH/A/Program Files (x86)/UE_4.16/Engine/Binaries --- GameBranchPath = KEITH/A/Program Files (x86)/UE_4.16/Engine/Binaries
+[2017.08.01-23.48.53:937][683]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Keith\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.01-23.49.47:988][812]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.01-23.49.48:510][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.01-23.49.48:580][839]LogSavePackage: Save=61.28ms
+[2017.08.01-23.49.48:580][839]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP7655E6D54391DD8B163516A00756FDAB.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.01-23.49.48:581][839]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.01-23.49.50:308][ 22]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-23.49.50:325][ 22]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.49.50:325][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-23.49.50:325][ 22]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 3:49:50 PM)
+[2017.08.01-23.49.50:325][ 22]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.01-23.49.50:405][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079473s)
+[2017.08.01-23.49.50:405][ 22]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.01-23.49.50:406][ 22]LogPlayLevel: PIE: World Init took: (0.000488s)
+[2017.08.01-23.49.50:406][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.080209s)
+[2017.08.01-23.49.50:431][ 22]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.01-23.49.50:441][ 22]LogInit: FAudioDevice initialized.
+[2017.08.01-23.49.50:470][ 22]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.01-23.49.50:496][ 22]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-19.49.50
+[2017.08.01-23.49.50:508][ 22]LogWorld: Bringing up level for play took: 0.036355
+[2017.08.01-23.49.50:513][ 22]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.693
+[2017.08.01-23.49.50:513][ 22]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.50.15:884][386]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.50.15:923][386]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.50.25:929][432]BlueprintLog: New page: Compile GameState_BP
+[2017.08.01-23.50.27:078][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameState_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/GameState_BP.uasset" SILENT=true
+[2017.08.01-23.50.27:099][536]LogSavePackage: Save=14.08ms
+[2017.08.01-23.50.27:099][536]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/GameState_BPB0F8D72748EF6C2789A9FCACCE81A617.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/GameState_BP.uasset'
+[2017.08.01-23.50.27:100][536]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/GameState_BP.uasset
+[2017.08.01-23.50.39:429][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.01-23.50.40:598][940]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-23.50.40:619][940]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.50.40:619][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-23.50.40:619][940]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 3:50:40 PM)
+[2017.08.01-23.50.40:619][940]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.01-23.50.40:699][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080341s)
+[2017.08.01-23.50.40:699][940]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.01-23.50.40:700][940]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2017.08.01-23.50.40:700][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.081187s)
+[2017.08.01-23.50.40:729][940]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.01-23.50.40:740][940]LogInit: FAudioDevice initialized.
+[2017.08.01-23.50.40:768][940]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.01-23.50.40:794][940]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-19.50.40
+[2017.08.01-23.50.40:806][940]LogWorld: Bringing up level for play took: 0.036503
+[2017.08.01-23.50.40:810][940]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.396
+[2017.08.01-23.50.40:810][940]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.51.01:836][634]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.51.01:874][634]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.51.11:235][536]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.01-23.51.11:616][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.01-23.51.11:682][550]LogSavePackage: Save=62.13ms
+[2017.08.01-23.51.11:682][550]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP0AEA4E1E456B417267CB9785275892FC.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.01-23.51.11:683][550]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.01-23.51.13:435][725]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-23.51.13:451][725]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.51.13:451][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-23.51.13:452][725]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 3:51:13 PM)
+[2017.08.01-23.51.13:452][725]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.01-23.51.13:529][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077647s)
+[2017.08.01-23.51.13:529][725]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.01-23.51.13:530][725]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2017.08.01-23.51.13:530][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.078468s)
+[2017.08.01-23.51.13:551][725]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.01-23.51.13:561][725]LogInit: FAudioDevice initialized.
+[2017.08.01-23.51.13:593][725]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.01-23.51.13:619][725]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-19.51.13
+[2017.08.01-23.51.13:630][725]LogWorld: Bringing up level for play took: 0.036256
+[2017.08.01-23.51.13:635][725]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 0.429
+[2017.08.01-23.51.13:636][725]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.51.30:369][675]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.51.30:407][675]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.01-23.51.41:653][983]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.01-23.51.42:159][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.01-23.51.42:223][ 16]LogSavePackage: Save=59.84ms
+[2017.08.01-23.51.42:223][ 16]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BPB98D14724261F9238A688EB146B5B111.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.01-23.51.42:224][ 16]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.01-23.52.17:872][136]LogLinker: Can't find file '/Game/Blueprints/StartMenu_BP'
+[2017.08.01-23.52.17:873][136]LogLinker: Can't find file '/Game/Blueprints/StartMenu_BP'
+[2017.08.01-23.52.20:402][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/StartMenu_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/StartMenu_BP.uasset" SILENT=true
+[2017.08.01-23.52.20:413][373]LogSavePackage: Save=9.42ms
+[2017.08.01-23.52.20:413][373]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/StartMenu_BP30CACE40443A4E23C8D310BC4120E6EC.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/StartMenu_BP.uasset'
+[2017.08.01-23.52.20:414][373]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/StartMenu_BP.uasset
+[2017.08.01-23.53.06:218][744]LogEditorTransaction: Undo Edit Left
+[2017.08.01-23.53.10:559][  6]LogEditorTransaction: Undo Edit Left
+[2017.08.01-23.53.31:058][310]LogEditorTransaction: Undo Set Vector Property
+[2017.08.01-23.53.52:106][642]LogEditorTransaction: Undo Set Vector Property
+[2017.08.01-23.54.15:761][131]LogSlate: Took 0.065903 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.08.01-23.58.05:802][960]Cmd: TRANSACTION UNDO
+[2017.08.01-23.58.05:802][960]LogEditorTransaction: Undo Move Widget (Render Transform)
+[2017.08.01-23.58.53:160][512]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.01-23.58.53:167][512]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.01-23.58.53:170][512]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.01-23.58.53:171][512]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.01-23.58.53:180][512]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.01-23.58.53:189][512]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.01-23.59.11:311][501]BlueprintLog: New page: Compile StartMenu_BP
+[2017.08.01-23.59.11:434][501]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-23.59.11:918][524]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.01-23.59.11:926][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/StartMenu_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/StartMenu_BP.uasset" SILENT=true
+[2017.08.01-23.59.11:947][524]LogSavePackage: Save=12.73ms
+[2017.08.01-23.59.11:947][524]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/StartMenu_BPE9B5E35D413100BE0A272099C494941F.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/StartMenu_BP.uasset'
+[2017.08.01-23.59.11:948][524]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/StartMenu_BP.uasset
+[2017.08.01-23.59.47:504][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap01" FILE="../../../../../Github/Project/Despair/Saved/Autosaves/Game/Maps/TestMap01_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.01-23.59.50:187][344]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.01-23.59.50:375][344]LogSavePackage: Save=2863.95ms
+[2017.08.01-23.59.50:375][344]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/TestMap01_Auto195C204654274E59D6FD5C5B5973C9323.tmp' to '../../../../../Github/Project/Despair/Saved/Autosaves/Game/Maps/TestMap01_Auto1.umap'
+[2017.08.01-23.59.50:376][344]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Saved/Autosaves/Game/Maps/TestMap01_Auto1.umap
+[2017.08.01-23.59.50:380][344]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap01' took 2.906
+[2017.08.01-23.59.50:380][344]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.906
+[2017.08.01-23.59.59:366][829]LogEditorTransaction: Undo Move Widget
+[2017.08.02-00.00.06:882][227]LogEditorTransaction: Undo Move Widget
+[2017.08.02-00.00.54:017][909]LogEditorTransaction: Undo Move Widget
+[2017.08.02-00.02.26:996][474]LogEditorTransaction: Undo Edit A
+[2017.08.02-00.02.28:767][474]LogCrashTracker: 
+
+
+[2017.08.02-00.02.28:767][474]LogCrashTracker: 
+
+
+[2017.08.02-00.02.28:767][474]LogWindows:Error: === Critical error: ===
+[2017.08.02-00.02.28:767][474]LogWindows:Error: 
+[2017.08.02-00.02.28:767][474]LogWindows:Error: Fatal error!
+[2017.08.02-00.02.28:767][474]LogWindows:Error: 
+[2017.08.02-00.02.28:767][474]LogWindows:Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000000
+[2017.08.02-00.02.28:767][474]LogWindows:Error: 
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000635B4494
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000635FCE50
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000628B0991
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000628B55D6
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-Slate.dll!0x0000000067A6EB50
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-Slate.dll!0x0000000067AB3D60
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-UnrealEd.dll!0x0000000063D1E0FE
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-UnrealEd.dll!0x0000000063D0892F
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-Slate.dll!0x0000000067A59021
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-Slate.dll!0x0000000067A2840E
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-Slate.dll!0x0000000067A2A006
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-Slate.dll!0x0000000067AB55AD
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-Slate.dll!0x0000000067AA6518
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-Core.dll!0x0000000068EF143C
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-Core.dll!0x0000000068EDB771
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-Core.dll!0x0000000068EF337B
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-Core.dll!0x0000000068ED7AC2
+[2017.08.02-00.02.28:767][474]LogWindows:Error: USER32.dll!0x000000009AD1BC50
+[2017.08.02-00.02.28:767][474]LogWindows:Error: USER32.dll!0x000000009AD1B5CF
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor-Core.dll!0x0000000068EF3C86
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor.exe!0x00000000874BDB44
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor.exe!0x00000000874AF0B0
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor.exe!0x00000000874AF12A
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor.exe!0x00000000874C0CF9
+[2017.08.02-00.02.28:767][474]LogWindows:Error: UE4Editor.exe!0x00000000874C25F7
+[2017.08.02-00.02.28:767][474]LogWindows:Error: KERNEL32.DLL!0x000000009AC62774
+[2017.08.02-00.02.28:767][474]LogWindows:Error: ntdll.dll!0x000000009B510D51
+[2017.08.02-00.02.28:767][474]LogWindows:Error: ntdll.dll!0x000000009B510D51
+[2017.08.02-00.02.28:767][474]LogWindows:Error: 
+[2017.08.02-00.02.28:777][474]LogExit: Executing StaticShutdownAfterError
+[2017.08.02-00.02.28:995][474]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.08.02-00.02.28:995][474]Log file closed, 08/01/17 20:02:28
