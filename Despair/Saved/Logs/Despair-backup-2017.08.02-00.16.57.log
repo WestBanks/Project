@@ -1,0 +1,1401 @@
+﻿Log file open, 08/01/17 23:16:17
+LogInit:Display: Running engine for game: Despair
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1140767784) SRandInit(1140767784).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.081580
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: A:/Program Files (x86)/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.02-03.16.17:588][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.02-03.16.17:588][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.02-03.16.17:597][  0]LogInit: Computer: KEITH
+[2017.08.02-03.16.17:597][  0]LogInit: User: Keith
+[2017.08.02-03.16.17:597][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.02-03.16.17:597][  0]LogInit: High frequency timer resolution =3.220783 MHz
+[2017.08.02-03.16.17:597][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.02-03.16.17:597][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.02-03.16.17:597][  0]LogMemory: Process Physical Memory: 272.63 MB used, 272.63 MB peak
+[2017.08.02-03.16.17:597][  0]LogMemory: Process Virtual Memory: 258.60 MB used, 258.60 MB peak
+[2017.08.02-03.16.17:597][  0]LogMemory: Physical Memory: 5195.65 MB used,  11125.77 MB free, 16321.41 MB total
+[2017.08.02-03.16.17:597][  0]LogMemory: Virtual Memory: 635.56 MB used,  11125.77 MB free, 134217728.00 MB total
+[2017.08.02-03.16.17:647][  0]LogInit: Using OS detected language (en-US).
+[2017.08.02-03.16.17:647][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.02-03.16.17:650][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.02-03.16.18:497][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.02-03.16.19:068][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.08.02-03.16.19:068][  0]LogD3D11RHI:       4059/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.02-03.16.19:069][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.02-03.16.19:069][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.02-03.16.19:069][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.02-03.16.19:074][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.02-03.16.19:074][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.02-03.16.19:074][  0]LogWindows: EnumDisplayDevices:
+[2017.08.02-03.16.19:075][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.08.02-03.16.19:075][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.08.02-03.16.19:075][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.02-03.16.19:075][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.02-03.16.19:075][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.02-03.16.19:075][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.08.02-03.16.19:075][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.08.02-03.16.19:075][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.08.02-03.16.19:075][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.02-03.16.19:683][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.02-03.16.19:722][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.02-03.16.19:774][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../../Github/Project/Despair/Intermediate/Shaders/WorkingDirectory/14204/).
+[2017.08.02-03.16.19:774][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Keith/AppData/Local/Temp/UnrealShaderWorkingDir/954668C0436B299A34E745BDACFAE6A7/'.
+[2017.08.02-03.16.19:774][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.02-03.16.20:772][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.02-03.16.20:808][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.02-03.16.20:843][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.02-03.16.20:878][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.02-03.16.20:913][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.02-03.16.20:948][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.02-03.16.20:983][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.02-03.16.21:020][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.02-03.16.21:052][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.02-03.16.21:089][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.02-03.16.21:123][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.02-03.16.21:157][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.02-03.16.21:191][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.02-03.16.21:225][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.02-03.16.21:259][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.02-03.16.21:328][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.02-03.16.21:328][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.02-03.16.21:354][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.02-03.16.21:424][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.02-03.16.21:446][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.02-03.16.21:481][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.02-03.16.21:515][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.02-03.16.21:550][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.02-03.16.21:585][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.02-03.16.21:585][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.02-03.16.21:900][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.02-03.16.21:989][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/Keith/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.02-03.16.21:989][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Keith/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.02-03.16.21:989][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Github/Project/Despair/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.02-03.16.21:989][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.02-03.16.21:989][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Github/Project/Despair/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.02-03.16.21:989][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.02-03.16.22:005][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.02-03.16.22:017][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Keith/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.02-03.16.22:027][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.02-03.16.22:027][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.02-03.16.22:028][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.02-03.16.22:028][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.02-03.16.22:318][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.02-03.16.22:387][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.02-03.16.22:515][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.02-03.16.22:544][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.02-03.16.22:574][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.02-03.16.22:574][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.02-03.16.22:574][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.02-03.16.23:031][  0]LogNetVersion: Despair , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 109746353)
+[2017.08.02-03.16.23:083][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
+[2017.08.02-03.16.23:122][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.025033 seconds
+[2017.08.02-03.16.23:127][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.02-03.16.23:127][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.02-03.16.23:127][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.02-03.16.23:166][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.02-03.16.24:950][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.02-03.16.24:979][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.02-03.16.25:346][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.02-03.16.25:632][  0]SourceControl: Info Source control is disabled
+[2017.08.02-03.16.26:620][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.02-03.16.27:033][  0]LogEngine: Initializing Engine...
+[2017.08.02-03.16.27:033][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.02-03.16.27:219][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.02-03.16.27:219][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.02-03.16.27:304][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.02-03.16.27:316][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.16.27:331][  0]LogInit: FAudioDevice initialized.
+[2017.08.02-03.16.27:370][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Keith/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.02-03.16.27:377][  0]LogInit: Texture streaming: Enabled
+[2017.08.02-03.16.27:437][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.02-03.16.27:437][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={385C4547-4067-EA54-D579-889CB58ADB68}
+[2017.08.02-03.16.27:577][  0]LogInit: Transaction tracking system initialized
+[2017.08.02-03.16.27:774][  0]BlueprintLog: New page: Editor Load
+[2017.08.02-03.16.28:367][  0]LocalizationService: Info Localization service is disabled
+[2017.08.02-03.16.28:806][  0]LogConsoleResponse:Display: 
+[2017.08.02-03.16.28:929][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.02-03.16.28:929][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.02-03.16.29:737][  0]LogFileCache: Scanning file cache for directory 'A:/Github/Project/Despair/Content/' took 0.01s
+[2017.08.02-03.16.29:737][  0]Cmd: MAP LOAD FILE="../../../../../Github/Project/Despair/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.02-03.16.29:737][  0]LightingResults: New page: Lighting Build
+[2017.08.02-03.16.29:765][  0]MapCheck: New page: Map Check
+[2017.08.02-03.16.29:765][  0]LightingResults: New page: Lighting Build
+[2017.08.02-03.16.30:071][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.02-03.16.30:078][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.02-03.16.30:099][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.02-03.16.30:134][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.99ms to complete.
+[2017.08.02-03.16.30:135][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.398
+[2017.08.02-03.16.30:268][  0]LogCollectionManager: Loaded 0 collections in 0.000944 seconds
+[2017.08.02-03.16.30:332][  0]LogFileCache: Scanning file cache for directory 'A:/Github/Project/Despair/Saved/Collections/' took 0.01s
+[2017.08.02-03.16.30:332][  0]LogFileCache: Scanning file cache for directory 'A:/Github/Project/Despair/Content/Developers/Keith/Collections/' took 0.01s
+[2017.08.02-03.16.30:332][  0]LogFileCache: Scanning file cache for directory 'A:/Github/Project/Despair/Content/Collections/' took 0.01s
+[2017.08.02-03.16.30:332][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.02-03.16.30:341][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2329 classes and 491 folders.
+[2017.08.02-03.16.30:381][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.02-03.16.30:411][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.02-03.16.30:440][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.02-03.16.30:473][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0006 seconds. Added 1 classes and 3 folders.
+[2017.08.02-03.16.30:541][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.02-03.16.30:547][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.02-03.16.30:550][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.02-03.16.30:553][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.02-03.16.30:641][  0]LogRenderer: Reallocating scene render targets to support 1132x640 NumSamples 1 (Frame:1).
+[2017.08.02-03.16.30:752][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.02-03.16.30:801][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.02-03.16.30:801][  0]LogLoad: (Engine Initialization) Total time: 14.33 seconds
+[2017.08.02-03.16.30:801][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.08.02-03.16.30:801][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.02-03.16.30:801][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.02-03.16.31:142][  0]LogOcInput: OculusInput pre-init called
+[2017.08.02-03.16.31:142][  0]LogHMD: Starting GearVRController plugin
+[2017.08.02-03.16.31:164][  0]SourceControl: Info On branch master
+[2017.08.02-03.16.31:164][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.08.02-03.16.31:164][  0]SourceControl: Info Changes not staged for commit:
+[2017.08.02-03.16.31:164][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.08.02-03.16.31:164][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.08.02-03.16.31:164][  0]SourceControl: Info 	modified:   Despair/Intermediate/CachedAssetRegistry.bin
+[2017.08.02-03.16.31:164][  0]SourceControl: Info 	modified:   Despair/Saved/Config/Windows/Editor.ini
+[2017.08.02-03.16.31:164][  0]SourceControl: Info 	modified:   Despair/Saved/Config/Windows/Engine.ini
+[2017.08.02-03.16.31:164][  0]SourceControl: Info 	modified:   Despair/Saved/Logs/Despair.log
+[2017.08.02-03.16.31:164][  0]SourceControl: Info Untracked files:
+[2017.08.02-03.16.31:164][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.08.02-03.16.31:164][  0]SourceControl: Info 	Despair/Saved/Config/CrashReportClient/UE4CC-Windows-F7CFC4D0417B18F869DF2FA3737D0D2B/
+[2017.08.02-03.16.31:164][  0]SourceControl: Info 	Despair/Saved/Logs/Despair-backup-2017.08.01-23.16.17.log
+[2017.08.02-03.16.31:164][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.08.02-03.16.31:165][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.02-03.16.31:479][  1]LogAssetRegistry: Asset discovery search completed in 8.4180 seconds
+[2017.08.02-03.16.31:481][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.02-03.16.31:481][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.08.02-03.16.35:483][ 13]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.02-03.17.46:868][936]Cmd: MAP LOAD FILE="../../../../../Github/Project/Despair/Content/Maps/TestMap01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.02-03.17.46:873][936]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.02-03.17.46:880][936]LightingResults: New page: Lighting Build
+[2017.08.02-03.17.46:880][936]LoadErrors: New page: Loading map: TestMap01.umap
+[2017.08.02-03.17.46:882][936]MapCheck: New page: Map Check
+[2017.08.02-03.17.46:882][936]LightingResults: New page: Lighting Build
+[2017.08.02-03.17.47:259][936]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.17.47:731][936]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.02-03.17.47:782][936]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.02-03.17.47:818][936]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.848ms to complete.
+[2017.08.02-03.17.47:819][936]LogFileHelpers: Loading map 'TestMap01' took 0.952
+[2017.08.02-03.19.30:025][830]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.08.02-03.19.30:544][830]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.02-03.19.30:597][830]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.02-03.19.30:702][831]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.02-03.19.47:694][409]LogSlate: Took 0.014795 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.02-03.19.59:604][652]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.20.00:040][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.20.00:105][665]LogSavePackage: Save=55.59ms
+[2017.08.02-03.20.00:105][665]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP1ECD29DF4189946DDCE66D9AE521EBAF.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.20.00:106][665]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.20.01:937][835]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.02-03.20.05:909][236]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.20.06:446][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.20.06:507][266]LogSavePackage: Save=58.31ms
+[2017.08.02-03.20.06:507][266]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP5E90CAEB4C5BFD86D9222595D9DE24BB.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.20.06:509][266]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.20.56:804][696]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.20.57:203][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.20.57:261][707]LogSavePackage: Save=55.14ms
+[2017.08.02-03.20.57:261][707]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP9C4587C247D9BF42E127BC96AB9E95B7.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.20.57:263][707]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.21.00:826][ 49]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.21.50:202][265]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.21.50:694][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.21.50:760][293]LogSavePackage: Save=61.27ms
+[2017.08.02-03.21.50:760][293]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP206388494F5696CEE2DD0B935D731598.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.21.50:761][293]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.22.11:189][607]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.22.54:199][574]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.22.54:684][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.22.54:751][604]LogSavePackage: Save=63.89ms
+[2017.08.02-03.22.54:751][604]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BPB7675FFB43A9B7BD4CFC379733773956.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.22.54:753][604]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.23.27:443][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CharacterAnimState_Enum" FILE="../../../../../Github/Project/Despair/Content/Blueprints/CharacterAnimState_Enum.uasset" SILENT=true
+[2017.08.02-03.23.27:448][ 92]LogSavePackage: Save=3.70ms
+[2017.08.02-03.23.27:448][ 92]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/CharacterAnimState_Enum6119B72B4EADE4C2682BA4B03705F0AC.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/CharacterAnimState_Enum.uasset'
+[2017.08.02-03.23.27:449][ 92]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/CharacterAnimState_Enum.uasset
+[2017.08.02-03.23.40:555][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CharacterAnimState_Enum" FILE="../../../../../Github/Project/Despair/Content/Blueprints/CharacterAnimState_Enum.uasset" SILENT=true
+[2017.08.02-03.23.40:564][594]LogSavePackage: Save=3.30ms
+[2017.08.02-03.23.40:564][594]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/CharacterAnimState_EnumFD9637774DDB3B450B88C7BC2B0CB980.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/CharacterAnimState_Enum.uasset'
+[2017.08.02-03.23.40:565][594]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/CharacterAnimState_Enum.uasset
+[2017.08.02-03.23.44:009][988]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.23.44:555][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.23.44:621][ 26]LogSavePackage: Save=62.20ms
+[2017.08.02-03.23.44:621][ 26]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP852C948C4713E34D5CFFFFACE7EA0319.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.23.44:623][ 26]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.24.18:650][980]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.24.19:138][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.24.19:206][999]LogSavePackage: Save=63.72ms
+[2017.08.02-03.24.19:206][999]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BPFB3FC53448E804B1EE20B6B80E7D72AD.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.24.19:207][999]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.24.50:466][430]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.24.51:072][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.24.51:137][464]LogSavePackage: Save=61.38ms
+[2017.08.02-03.24.51:137][464]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BPEF89C9924A66C00FA674BAB93C8507F3.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.24.51:139][464]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.25.07:720][736]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.25.08:210][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.25.08:289][764]LogSavePackage: Save=70.50ms
+[2017.08.02-03.25.08:289][764]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BPCC73BF8946EC241AA87D93ACF19A2651.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.25.08:290][764]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.25.15:214][509]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.25.15:610][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.25.15:678][527]LogSavePackage: Save=64.93ms
+[2017.08.02-03.25.15:678][527]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP3106D08741BE727C976201BB8B5F9B9E.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.25.15:679][527]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.26.06:850][ 40]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.26.07:378][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.26.07:449][ 74]LogSavePackage: Save=68.35ms
+[2017.08.02-03.26.07:449][ 74]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BPBC114B9B4CDF3FF1C44CA499D4C2BE62.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.26.07:451][ 74]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.26.17:531][203]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.26.18:022][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.26.18:096][232]LogSavePackage: Save=70.60ms
+[2017.08.02-03.26.18:096][232]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP209EC9814E08F614EC0A9CAE634D4878.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.26.18:097][232]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.26.28:225][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CharacterAnimState_Enum" FILE="../../../../../Github/Project/Despair/Content/Blueprints/CharacterAnimState_Enum.uasset" SILENT=true
+[2017.08.02-03.26.28:232][371]LogSavePackage: Save=3.27ms
+[2017.08.02-03.26.28:232][371]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/CharacterAnimState_Enum5302D824435007EE6C397D8C2B058871.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/CharacterAnimState_Enum.uasset'
+[2017.08.02-03.26.28:232][371]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/CharacterAnimState_Enum.uasset
+[2017.08.02-03.28.18:901][702]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.28.19:922][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.28.19:997][783]LogSavePackage: Save=71.51ms
+[2017.08.02-03.28.19:997][783]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BPD576531A4B8BC15AA3AAC590DE1F366B.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.28.19:997][783]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.28.20:614][844]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.02-03.28.27:453][558]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/Blueprints/PlayerPawn2_BP.PlayerPawn2_BP from Character to PaperCharacter...
+[2017.08.02-03.28.27:468][558]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.28.28:789][663]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.28.29:455][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.28.29:531][707]LogSavePackage: Save=71.29ms
+[2017.08.02-03.28.29:531][707]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BPD2C7FA6D47A4FD611A87999B42959961.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.28.29:533][707]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.28.36:174][319]LogRenderer: Reallocating scene render targets to support 1144x712 NumSamples 1 (Frame:1).
+[2017.08.02-03.28.59:544][473]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.28.59:938][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.29.00:012][481]LogSavePackage: Save=70.22ms
+[2017.08.02-03.29.00:012][481]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP7485851249E24367AD49B48DECAAB800.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.29.00:013][481]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.29.02:259][744]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-03.29.02:297][744]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.29.02:297][744]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.02-03.29.02:297][744]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2017.08.02-03.29.02:385][744]LogPlayLevel: PlayLevel: Blueprint regeneration took 88 ms (1 blueprints)
+[2017.08.02-03.29.02:385][744]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 7:29:02 PM)
+[2017.08.02-03.29.02:386][744]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.02-03.29.02:470][744]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084955s)
+[2017.08.02-03.29.02:471][744]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.29.02:471][744]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2017.08.02-03.29.02:471][744]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.085831s)
+[2017.08.02-03.29.02:493][744]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.29.02:504][744]LogInit: FAudioDevice initialized.
+[2017.08.02-03.29.02:546][744]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.02-03.29.02:573][744]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-23.29.02
+[2017.08.02-03.29.02:585][744]LogWorld: Bringing up level for play took: 0.037915
+[2017.08.02-03.29.02:614][744]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.02-03.29.02:619][744]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.535
+[2017.08.02-03.29.02:619][744]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.29.06:008][146]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.29.06:045][146]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.29.07:742][318]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.08.02-03.29.08:214][327]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.08.02-03.29.18:190][318]Cmd: TRANSACTION UNDO
+[2017.08.02-03.29.18:190][318]LogEditorTransaction: Undo Edit Projection Mode
+[2017.08.02-03.29.18:588][352]Cmd: TRANSACTION UNDO
+[2017.08.02-03.29.18:588][352]LogEditorTransaction: Undo Edit Projection Mode
+[2017.08.02-03.29.18:935][388]Cmd: TRANSACTION UNDO
+[2017.08.02-03.29.18:935][388]LogEditorTransaction: Undo Move Actors
+[2017.08.02-03.29.26:918][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap01" FILE="../../../../../Github/Project/Despair/Content/Maps/TestMap01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.02-03.29.29:789][306]LogSavePackage: Save=2848.11ms
+[2017.08.02-03.29.29:789][306]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/TestMap01C49A280643981F524458B989CE68CAE7.tmp' to '../../../../../Github/Project/Despair/Content/Maps/TestMap01.umap'
+[2017.08.02-03.29.29:791][306]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Maps/TestMap01.umap
+[2017.08.02-03.29.29:876][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap01_BuiltData" FILE="../../../../../Github/Project/Despair/Content/Maps/TestMap01_BuiltData.uasset" SILENT=true
+[2017.08.02-03.29.29:891][306]LogSavePackage: Save=8.26ms
+[2017.08.02-03.29.29:891][306]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/TestMap01_BuiltData27525AF5402F3111A144ABB221CE8FCA.tmp' to '../../../../../Github/Project/Despair/Content/Maps/TestMap01_BuiltData.uasset'
+[2017.08.02-03.29.29:892][306]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Maps/TestMap01_BuiltData.uasset
+[2017.08.02-03.29.30:286][353]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-03.29.30:304][353]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.29.30:304][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.29.30:305][353]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 7:29:30 PM)
+[2017.08.02-03.29.30:305][353]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.02-03.29.30:388][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082870s)
+[2017.08.02-03.29.30:388][353]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.29.30:388][353]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2017.08.02-03.29.30:389][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.083700s)
+[2017.08.02-03.29.30:456][353]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.29.30:466][353]LogInit: FAudioDevice initialized.
+[2017.08.02-03.29.30:499][353]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.02-03.29.30:525][353]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-23.29.30
+[2017.08.02-03.29.30:536][353]LogWorld: Bringing up level for play took: 0.036521
+[2017.08.02-03.29.30:541][353]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.613
+[2017.08.02-03.29.30:541][353]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.29.33:897][748]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.29.33:990][748]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.29.49:905][978]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.29.50:521][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.29.50:594][  6]LogSavePackage: Save=68.22ms
+[2017.08.02-03.29.50:594][  6]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP44253D73415143D5D8834CACBB2F0088.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.29.50:595][  6]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.29.52:218][170]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-03.29.52:237][170]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.29.52:237][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.29.52:237][170]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 7:29:52 PM)
+[2017.08.02-03.29.52:237][170]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.02-03.29.52:318][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081044s)
+[2017.08.02-03.29.52:319][170]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.29.52:319][170]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2017.08.02-03.29.52:319][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.081909s)
+[2017.08.02-03.29.52:372][170]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.29.52:382][170]LogInit: FAudioDevice initialized.
+[2017.08.02-03.29.52:412][170]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.02-03.29.52:439][170]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-23.29.52
+[2017.08.02-03.29.52:449][170]LogWorld: Bringing up level for play took: 0.035937
+[2017.08.02-03.29.52:454][170]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.7
+[2017.08.02-03.29.52:454][170]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.29.58:490][891]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.29.58:571][891]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.30.58:155][  4]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.30.58:563][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.30.58:642][ 19]LogSavePackage: Save=71.74ms
+[2017.08.02-03.30.58:642][ 19]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP7A4686EF480A1960F937AB9CE2609BC4.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.30.58:643][ 19]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.31.19:862][823]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.31.20:314][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.31.20:393][841]LogSavePackage: Save=75.20ms
+[2017.08.02-03.31.20:393][841]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP2E52B49F48616924895641A84D37559E.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.31.20:394][841]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.31.30:089][643]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.31.30:807][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.31.30:883][682]LogSavePackage: Save=72.69ms
+[2017.08.02-03.31.30:884][682]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP8B75111A4E74BE89BB5FD9877DDAB8FB.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.31.30:885][682]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.31.33:657][909]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.31.34:167][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.31.34:241][933]LogSavePackage: Save=70.87ms
+[2017.08.02-03.31.34:241][933]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BPCBACBBBF426540A45D8D6ABB605EB4BF.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.31.34:242][933]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.31.36:600][152]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-03.31.36:619][152]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.31.36:619][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.31.36:619][152]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 7:31:36 PM)
+[2017.08.02-03.31.36:619][152]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.02-03.31.36:704][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083847s)
+[2017.08.02-03.31.36:704][152]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.31.36:704][152]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2017.08.02-03.31.36:704][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.084760s)
+[2017.08.02-03.31.36:753][152]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.31.36:764][152]LogInit: FAudioDevice initialized.
+[2017.08.02-03.31.36:793][152]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.02-03.31.36:820][152]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-23.31.36
+[2017.08.02-03.31.36:832][152]LogWorld: Bringing up level for play took: 0.037925
+[2017.08.02-03.31.36:837][152]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.316
+[2017.08.02-03.31.36:838][152]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.31.41:298][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.31.41:382][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.31.55:798][882]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.31.56:299][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.31.56:378][905]LogSavePackage: Save=75.47ms
+[2017.08.02-03.31.56:378][905]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP9917BF1343F5F2E8DBD52DAB8DECA4E7.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.31.56:380][905]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.31.58:769][134]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-03.31.58:788][134]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.31.58:788][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.31.58:788][134]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 7:31:58 PM)
+[2017.08.02-03.31.58:788][134]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.02-03.31.58:871][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082266s)
+[2017.08.02-03.31.58:871][134]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.31.58:871][134]LogPlayLevel: PIE: World Init took: (0.000502s)
+[2017.08.02-03.31.58:872][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.083093s)
+[2017.08.02-03.31.58:924][134]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.31.58:934][134]LogInit: FAudioDevice initialized.
+[2017.08.02-03.31.58:964][134]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.02-03.31.58:989][134]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-23.31.58
+[2017.08.02-03.31.59:000][134]LogWorld: Bringing up level for play took: 0.035602
+[2017.08.02-03.31.59:004][134]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.149
+[2017.08.02-03.31.59:005][134]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.32.22:559][955]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.32.22:648][955]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.33.02:793][550]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.33.03:239][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.33.03:315][568]LogSavePackage: Save=72.38ms
+[2017.08.02-03.33.03:315][568]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP569C9C59438768D724EB44B1CD46B049.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.33.03:316][568]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.34.08:885][ 26]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.34.09:470][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.34.09:550][ 48]LogSavePackage: Save=75.80ms
+[2017.08.02-03.34.09:550][ 48]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP0B8AC2C44CB3AB6056D9FF8263956832.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.34.09:551][ 48]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.34.11:611][213]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.34.12:371][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.34.12:450][256]LogSavePackage: Save=76.08ms
+[2017.08.02-03.34.12:450][256]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP15EB5FB840A8C5E7B6AB93B23910AC8C.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.34.12:451][256]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.35.47:515][682]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.35.48:056][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.35.48:143][708]LogSavePackage: Save=83.31ms
+[2017.08.02-03.35.48:143][708]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BPCE9E21D64D4C0280A8C0ACA32C857794.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.35.48:145][708]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.36.48:810][878]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.36.48:879][878]LogBlueprint:Error: [Compiler PlayerPawn2_BP] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.08.02-03.36.49:152][878]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.08.02-03.36.49:152][878]LogBlueprint:Warning: [Compiler PlayerPawn2_BP] Warning [1232.68] Compile of PlayerPawn2_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 342 ms] (/Game/Blueprints/PlayerPawn2_BP.PlayerPawn2_BP)
+[2017.08.02-03.36.49:315][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.36.49:405][882]LogSavePackage: Save=83.40ms
+[2017.08.02-03.36.49:405][882]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP08B2D655483876F2FBE22484D5BFB726.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.36.49:407][882]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.36.51:713][ 77]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.36.51:736][ 77]LogBlueprint:Error: [Compiler PlayerPawn2_BP] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.08.02-03.36.51:930][ 77]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.08.02-03.36.51:931][ 77]LogBlueprint:Warning: [Compiler PlayerPawn2_BP] Warning [1235.46] Compile of PlayerPawn2_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 216 ms] (/Game/Blueprints/PlayerPawn2_BP.PlayerPawn2_BP)
+[2017.08.02-03.36.52:312][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.36.52:398][101]LogSavePackage: Save=82.41ms
+[2017.08.02-03.36.52:398][101]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP39FD606F4075B128C57E06B304B5BEA1.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.36.52:399][101]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.36.53:417][191]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.36.53:440][191]LogBlueprint:Error: [Compiler PlayerPawn2_BP] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.08.02-03.36.53:633][191]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.08.02-03.36.53:633][191]LogBlueprint:Warning: [Compiler PlayerPawn2_BP] Warning [1237.16] Compile of PlayerPawn2_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 215 ms] (/Game/Blueprints/PlayerPawn2_BP.PlayerPawn2_BP)
+[2017.08.02-03.37.08:418][364]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.37.09:061][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.37.09:155][399]LogSavePackage: Save=90.06ms
+[2017.08.02-03.37.09:155][399]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BPA072B58E449F8020E8BB66B922BDF9D1.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.37.09:156][399]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.37.12:073][674]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-03.37.12:093][674]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.37.12:093][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.37.12:093][674]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 7:37:12 PM)
+[2017.08.02-03.37.12:093][674]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.02-03.37.12:177][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084312s)
+[2017.08.02-03.37.12:178][674]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.37.12:178][674]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2017.08.02-03.37.12:178][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.085207s)
+[2017.08.02-03.37.12:232][674]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.37.12:242][674]LogInit: FAudioDevice initialized.
+[2017.08.02-03.37.12:272][674]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.02-03.37.12:299][674]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-23.37.12
+[2017.08.02-03.37.12:311][674]LogWorld: Bringing up level for play took: 0.037920
+[2017.08.02-03.37.12:316][674]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 1.163
+[2017.08.02-03.37.12:317][674]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.37.42:513][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.37.42:602][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.37.47:498][600]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.37.47:992][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.37.48:086][620]LogSavePackage: Save=90.21ms
+[2017.08.02-03.37.48:086][620]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP0F9FDF4E4B3915A7D806FA966C01F9AC.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.37.48:087][620]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.38.22:241][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.38.22:334][ 28]LogSavePackage: Save=88.45ms
+[2017.08.02-03.38.22:334][ 28]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP67D32A61493C740CE28A8D9CF234CD23.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.38.22:335][ 28]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.39.10:681][500]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.39.11:063][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.39.11:154][512]LogSavePackage: Save=86.65ms
+[2017.08.02-03.39.11:154][512]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP8FA8789F44860E531CC0789E71CCDA5E.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.39.11:155][512]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.39.30:795][ 18]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.39.31:199][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.39.31:291][ 31]LogSavePackage: Save=88.92ms
+[2017.08.02-03.39.31:291][ 31]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP5440CECF4747601FB4CF89B18663033D.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.39.31:293][ 31]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.39.40:139][710]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.39.40:631][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.39.40:728][731]LogSavePackage: Save=93.65ms
+[2017.08.02-03.39.40:728][731]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP25DC778C45A49BF8B85ADFBE8F430E4F.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.39.40:730][731]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.39.52:568][633]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.39.53:081][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.39.53:177][655]LogSavePackage: Save=92.53ms
+[2017.08.02-03.39.53:177][655]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP943B9F7A44555E6D487B58B331BFFEB3.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.39.53:179][655]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.40.18:055][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/CharacterJump" FILE="../../../../../Github/Project/Despair/Content/Textures/CharacterJump.uasset" SILENT=true
+[2017.08.02-03.40.18:062][512]LogSavePackage: Save=5.85ms
+[2017.08.02-03.40.18:062][512]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/CharacterJump82C3E30741B0015531C7A9B655519F88.tmp' to '../../../../../Github/Project/Despair/Content/Textures/CharacterJump.uasset'
+[2017.08.02-03.40.18:063][512]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Textures/CharacterJump.uasset
+[2017.08.02-03.40.20:165][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap01" FILE="../../../../../Github/Project/Despair/Content/Maps/TestMap01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.02-03.40.23:040][675]LogSavePackage: Save=2851.63ms
+[2017.08.02-03.40.23:040][675]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/TestMap01C4EBB2F2426E2681B3DF899980DC481D.tmp' to '../../../../../Github/Project/Despair/Content/Maps/TestMap01.umap'
+[2017.08.02-03.40.23:041][675]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Maps/TestMap01.umap
+[2017.08.02-03.40.23:127][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap01_BuiltData" FILE="../../../../../Github/Project/Despair/Content/Maps/TestMap01_BuiltData.uasset" SILENT=true
+[2017.08.02-03.40.23:140][675]LogSavePackage: Save=6.66ms
+[2017.08.02-03.40.23:140][675]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/TestMap01_BuiltData50E1589244D2B3FA759F68991C2E4F5B.tmp' to '../../../../../Github/Project/Despair/Content/Maps/TestMap01_BuiltData.uasset'
+[2017.08.02-03.40.23:141][675]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Maps/TestMap01_BuiltData.uasset
+[2017.08.02-03.40.26:758][958]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.40.27:997][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.40.28:092][ 39]LogSavePackage: Save=91.90ms
+[2017.08.02-03.40.28:092][ 39]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP5E3732D545E8CA0D1FFD68805762B85C.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.40.28:094][ 39]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.40.28:859][ 99]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-03.40.28:878][ 99]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.40.28:878][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.40.28:878][ 99]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 7:40:28 PM)
+[2017.08.02-03.40.28:878][ 99]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.02-03.40.28:962][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084030s)
+[2017.08.02-03.40.28:962][ 99]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.40.28:963][ 99]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2017.08.02-03.40.28:963][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.084834s)
+[2017.08.02-03.40.29:009][ 99]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.40.29:020][ 99]LogInit: FAudioDevice initialized.
+[2017.08.02-03.40.29:052][ 99]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.02-03.40.29:095][ 99]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-23.40.29
+[2017.08.02-03.40.29:108][ 99]LogWorld: Bringing up level for play took: 0.053691
+[2017.08.02-03.40.29:114][ 99]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.04
+[2017.08.02-03.40.29:114][ 99]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.40.40:282][170]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.40.40:370][170]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.40.58:871][652]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.40.59:494][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.40.59:593][682]LogSavePackage: Save=94.40ms
+[2017.08.02-03.40.59:593][682]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP18767EDC4099DD23D1DAA2BC5C8BB892.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.40.59:593][682]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.41.04:372][ 68]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-03.41.04:390][ 68]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.41.04:390][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.41.04:391][ 68]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 7:41:04 PM)
+[2017.08.02-03.41.04:391][ 68]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.02-03.41.04:471][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080860s)
+[2017.08.02-03.41.04:472][ 68]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.41.04:472][ 68]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2017.08.02-03.41.04:472][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.081821s)
+[2017.08.02-03.41.04:524][ 68]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.41.04:533][ 68]LogInit: FAudioDevice initialized.
+[2017.08.02-03.41.04:563][ 68]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.02-03.41.04:590][ 68]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-23.41.04
+[2017.08.02-03.41.04:601][ 68]LogWorld: Bringing up level for play took: 0.036663
+[2017.08.02-03.41.04:606][ 68]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.548
+[2017.08.02-03.41.04:606][ 68]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.41.12:275][793]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.41.12:361][793]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.41.18:341][257]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.41.18:908][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.41.19:004][283]LogSavePackage: Save=92.34ms
+[2017.08.02-03.41.19:004][283]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP7B1825A242D728AFB907879AC5E54262.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.41.19:005][283]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.41.20:375][391]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-03.41.20:393][391]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.41.20:393][391]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.41.20:394][391]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 7:41:20 PM)
+[2017.08.02-03.41.20:394][391]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.02-03.41.20:475][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081311s)
+[2017.08.02-03.41.20:475][391]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.41.20:475][391]LogPlayLevel: PIE: World Init took: (0.000529s)
+[2017.08.02-03.41.20:476][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.082130s)
+[2017.08.02-03.41.20:523][391]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.41.20:533][391]LogInit: FAudioDevice initialized.
+[2017.08.02-03.41.20:563][391]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.02-03.41.20:590][391]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-23.41.20
+[2017.08.02-03.41.20:601][391]LogWorld: Bringing up level for play took: 0.036474
+[2017.08.02-03.41.20:606][391]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.548
+[2017.08.02-03.41.20:606][391]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.41.34:828][731]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.41.34:913][731]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.42.34:724][975]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.42.35:438][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.42.35:536][ 16]LogSavePackage: Save=91.18ms
+[2017.08.02-03.42.35:536][ 16]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BPD629135345C0A9BA8D471EA32E5C1E16.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.42.35:538][ 16]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.42.45:832][710]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.08.02-03.43.45:317][338]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.43.45:739][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.43.45:836][354]LogSavePackage: Save=92.84ms
+[2017.08.02-03.43.45:836][354]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP87473AC34F1499C4A07961809FDB6C5F.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.43.45:837][354]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.43.46:610][418]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-03.43.46:628][418]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.43.46:628][418]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.43.46:629][418]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 7:43:46 PM)
+[2017.08.02-03.43.46:629][418]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.02-03.43.46:713][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084098s)
+[2017.08.02-03.43.46:714][418]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.43.46:714][418]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2017.08.02-03.43.46:714][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.085066s)
+[2017.08.02-03.43.46:760][418]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.43.46:770][418]LogInit: FAudioDevice initialized.
+[2017.08.02-03.43.46:800][418]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.02-03.43.46:827][418]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-23.43.46
+[2017.08.02-03.43.46:839][418]LogWorld: Bringing up level for play took: 0.037328
+[2017.08.02-03.43.46:844][418]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.31
+[2017.08.02-03.43.46:844][418]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.43.50:091][752]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.43.50:178][752]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.43.59:415][510]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.43.59:858][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.43.59:954][528]LogSavePackage: Save=92.34ms
+[2017.08.02-03.43.59:954][528]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP3443EBC943B67594BFDC83833CB2BD62.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.43.59:955][528]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.44.00:791][597]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-03.44.00:810][597]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.44.00:810][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.44.00:810][597]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 7:44:00 PM)
+[2017.08.02-03.44.00:810][597]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.02-03.44.00:892][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082001s)
+[2017.08.02-03.44.00:893][597]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.44.00:893][597]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2017.08.02-03.44.00:893][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.082800s)
+[2017.08.02-03.44.00:937][597]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.44.00:948][597]LogInit: FAudioDevice initialized.
+[2017.08.02-03.44.00:977][597]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.02-03.44.01:004][597]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-23.44.01
+[2017.08.02-03.44.01:016][597]LogWorld: Bringing up level for play took: 0.037558
+[2017.08.02-03.44.01:020][597]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.133
+[2017.08.02-03.44.01:021][597]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.44.03:046][801]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.44.03:135][801]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.44.21:526][364]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.44.22:004][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.44.22:103][384]LogSavePackage: Save=95.40ms
+[2017.08.02-03.44.22:103][384]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP185061854C743DAD3AC07BAFDB51D248.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.44.22:104][384]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.44.22:694][434]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-03.44.22:713][434]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.44.22:713][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.44.22:713][434]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 7:44:22 PM)
+[2017.08.02-03.44.22:713][434]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.02-03.44.22:792][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079724s)
+[2017.08.02-03.44.22:793][434]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.44.22:793][434]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2017.08.02-03.44.22:793][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.080543s)
+[2017.08.02-03.44.22:848][434]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.44.22:858][434]LogInit: FAudioDevice initialized.
+[2017.08.02-03.44.22:888][434]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.02-03.44.22:916][434]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-23.44.22
+[2017.08.02-03.44.22:927][434]LogWorld: Bringing up level for play took: 0.038215
+[2017.08.02-03.44.22:932][434]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.221
+[2017.08.02-03.44.22:933][434]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.44.24:232][561]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:241][562]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:251][563]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:261][564]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:271][565]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:281][566]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:291][567]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:301][568]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:311][569]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:321][570]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:331][571]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:341][572]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:351][573]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:361][574]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:371][575]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:381][576]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:390][577]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:400][578]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:411][579]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:420][580]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:430][581]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:440][582]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:450][583]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:460][584]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:470][585]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:481][586]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:491][587]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:501][588]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:511][589]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:521][590]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:531][591]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:541][592]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:551][593]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:562][594]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:572][595]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:582][596]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:592][597]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:602][598]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:612][599]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:621][600]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:632][601]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:642][602]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:652][603]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:662][604]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:672][605]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:681][606]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:691][607]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:701][608]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:711][609]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:721][610]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:731][611]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:741][612]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:751][613]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:761][614]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:771][615]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:781][616]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:790][617]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:801][618]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:810][619]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:821][620]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:831][621]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:841][622]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:851][623]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:861][624]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:871][625]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:881][626]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:891][627]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:901][628]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:911][629]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:921][630]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:932][631]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:942][632]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:952][633]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:961][634]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:971][635]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:981][636]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.24:991][637]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:002][638]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:012][639]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:022][640]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:033][641]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:043][642]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:053][643]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:063][644]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:073][645]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:083][646]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:094][647]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:104][648]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:114][649]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:124][650]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:134][651]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:144][652]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:154][653]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:164][654]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:175][655]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:185][656]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:194][657]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:204][658]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:214][659]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:224][660]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:234][661]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:244][662]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:254][663]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:264][664]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:274][665]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:284][666]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:294][667]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:304][668]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:315][669]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:325][670]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:335][671]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:345][672]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:355][673]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:366][674]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:376][675]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:385][676]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:396][677]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:405][678]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:416][679]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:426][680]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:437][681]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:859][723]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:869][724]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:879][725]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:889][726]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:900][727]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:910][728]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:920][729]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:930][730]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:940][731]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:950][732]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:960][733]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:971][734]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:981][735]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.25:991][736]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:001][737]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:011][738]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:021][739]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:032][740]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:042][741]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:052][742]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:062][743]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:071][744]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:082][745]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:092][746]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:102][747]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:112][748]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:122][749]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:132][750]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:142][751]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:153][752]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:163][753]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:173][754]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:183][755]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:193][756]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:203][757]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:212][758]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:222][759]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:233][760]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:243][761]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:252][762]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:263][763]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:272][764]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:282][765]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:292][766]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:302][767]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:312][768]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:322][769]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:332][770]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:342][771]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:352][772]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:362][773]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:372][774]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:382][775]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:393][776]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:403][777]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:413][778]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:423][779]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:433][780]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:443][781]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:453][782]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:463][783]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:473][784]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:483][785]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:493][786]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:503][787]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:513][788]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:523][789]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:533][790]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:543][791]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:553][792]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:563][793]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:573][794]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:583][795]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:594][796]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:603][797]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:613][798]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:623][799]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:633][800]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:643][801]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:653][802]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:663][803]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:673][804]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:683][805]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:694][806]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:703][807]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:714][808]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:724][809]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:734][810]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:744][811]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:754][812]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:764][813]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:773][814]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:784][815]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:794][816]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:804][817]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:814][818]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:824][819]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:834][820]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:844][821]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:854][822]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:864][823]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:874][824]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:884][825]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:894][826]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:904][827]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:915][828]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:925][829]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:935][830]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:945][831]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:955][832]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:965][833]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:975][834]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:985][835]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.26:995][836]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.27:005][837]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.27:015][838]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.27:025][839]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.27:035][840]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.27:045][841]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.27:055][842]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.27:065][843]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.27:076][844]LogBlueprintUserMessages: [PlayerPawn2_BP_C_0] Hello
+[2017.08.02-03.44.27:360][870]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.44.27:445][870]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.44.30:230][ 91]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.44.30:766][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.44.30:862][116]LogSavePackage: Save=92.35ms
+[2017.08.02-03.44.30:862][116]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP1E713CA045B7B6A0E29FC78074267B3F.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.44.30:862][116]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.44.49:162][600]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.44.49:661][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.44.49:756][623]LogSavePackage: Save=90.99ms
+[2017.08.02-03.44.49:756][623]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BPC02278B14091BCF20948A197923648FD.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.44.49:758][623]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.44.52:353][836]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.44.52:896][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.44.52:992][862]LogSavePackage: Save=92.32ms
+[2017.08.02-03.44.52:992][862]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP944A852942AA57228A78E88F96953166.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.44.52:992][862]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.44.54:830][ 17]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-03.44.54:848][ 17]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.44.54:848][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.44.54:848][ 17]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 7:44:54 PM)
+[2017.08.02-03.44.54:848][ 17]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.02-03.44.54:933][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085001s)
+[2017.08.02-03.44.54:934][ 17]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.44.54:934][ 17]LogPlayLevel: PIE: World Init took: (0.000517s)
+[2017.08.02-03.44.54:934][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.085779s)
+[2017.08.02-03.44.54:982][ 17]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.44.54:992][ 17]LogInit: FAudioDevice initialized.
+[2017.08.02-03.44.55:022][ 17]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.02-03.44.55:049][ 17]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-23.44.55
+[2017.08.02-03.44.55:060][ 17]LogWorld: Bringing up level for play took: 0.036717
+[2017.08.02-03.44.55:065][ 17]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.089
+[2017.08.02-03.44.55:065][ 17]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.44.57:134][226]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.44.57:219][226]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.45.01:135][541]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.45.01:627][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.45.01:723][563]LogSavePackage: Save=92.64ms
+[2017.08.02-03.45.01:723][563]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BPE0B47EDF421816C9C3816F85CA48B164.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.45.01:724][563]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.45.02:501][629]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-03.45.02:519][629]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.45.02:519][629]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.45.02:519][629]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 7:45:02 PM)
+[2017.08.02-03.45.02:519][629]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.02-03.45.02:600][629]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080420s)
+[2017.08.02-03.45.02:600][629]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.45.02:600][629]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2017.08.02-03.45.02:600][629]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.081217s)
+[2017.08.02-03.45.02:649][629]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.45.02:659][629]LogInit: FAudioDevice initialized.
+[2017.08.02-03.45.02:690][629]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.02-03.45.02:718][629]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-23.45.02
+[2017.08.02-03.45.02:730][629]LogWorld: Bringing up level for play took: 0.038875
+[2017.08.02-03.45.02:735][629]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.419
+[2017.08.02-03.45.02:735][629]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.45.22:002][575]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.45.22:089][575]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.46.13:704][451]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.46.14:193][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.46.14:290][470]LogSavePackage: Save=92.08ms
+[2017.08.02-03.46.14:290][470]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP624CDCA04021BB248BB414ACFC7295C4.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.46.14:291][470]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.46.28:172][546]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.46.28:693][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.46.28:790][567]LogSavePackage: Save=93.98ms
+[2017.08.02-03.46.28:790][567]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP822D2FFA4E04EFCE5141478B384A900B.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.46.28:791][567]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.46.39:491][353]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.46.39:963][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.46.40:063][370]LogSavePackage: Save=95.14ms
+[2017.08.02-03.46.40:063][370]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP4180EBEE4AF0BCD29C05B2AD84FBF039.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.46.40:064][370]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.46.42:482][552]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.46.43:478][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.46.43:574][611]LogSavePackage: Save=92.43ms
+[2017.08.02-03.46.43:574][611]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP945EFFB14E191D447C422881334519C3.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.46.43:576][611]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.46.45:126][769]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-03.46.45:145][769]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.46.45:145][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.46.45:145][769]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 7:46:45 PM)
+[2017.08.02-03.46.45:145][769]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.02-03.46.45:228][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082279s)
+[2017.08.02-03.46.45:228][769]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.46.45:228][769]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2017.08.02-03.46.45:228][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.083079s)
+[2017.08.02-03.46.45:281][769]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.46.45:291][769]LogInit: FAudioDevice initialized.
+[2017.08.02-03.46.45:322][769]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.02-03.46.45:349][769]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-23.46.45
+[2017.08.02-03.46.45:361][769]LogWorld: Bringing up level for play took: 0.037372
+[2017.08.02-03.46.45:365][769]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 0.212
+[2017.08.02-03.46.45:366][769]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.46.53:433][734]Cmd: LevelEditor.ToggleImmersive
+[2017.08.02-03.46.53:577][735]LogRenderer: Reallocating scene render targets to support 1352x752 NumSamples 1 (Frame:967).
+[2017.08.02-03.46.53:649][736]LogRenderer: Reallocating scene render targets to support 1920x1040 NumSamples 1 (Frame:969).
+[2017.08.02-03.47.07:831][434]LogScript:Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+	PlayerPawn2_BP_C /Game/Maps/UEDPIE_0_TestMap01.TestMap01:PersistentLevel.PlayerPawn2_BP_C_0
+	Function /Game/Blueprints/PlayerPawn2_BP.PlayerPawn2_BP_C:ExecuteUbergraph_PlayerPawn2_BP:0610
+[2017.08.02-03.47.07:831][434]PIE:Error: Error Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_PlayerPawn2_BP' from node: DestroyComponent in graph: EventGraph in object: PlayerPawn2_BP with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+[2017.08.02-03.47.10:089][705]LogScript:Warning: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+	PlayerPawn2_BP_C /Game/Maps/UEDPIE_0_TestMap01.TestMap01:PersistentLevel.PlayerPawn2_BP_C_0
+	Function /Game/Blueprints/PlayerPawn2_BP.PlayerPawn2_BP_C:ExecuteUbergraph_PlayerPawn2_BP:0610
+[2017.08.02-03.47.10:089][705]PIE:Error: Error Blueprint Runtime Error: Attempted to access Sphere via property Sphere, but Sphere is pending kill from function: 'ExecuteUbergraph_PlayerPawn2_BP' from node: DestroyComponent in graph: EventGraph in object: PlayerPawn2_BP with description: Attempted to access Sphere via property Sphere, but Sphere is pending kill
+[2017.08.02-03.47.10:156][713]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.47.10:268][713]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.47.14:609][136]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-03.47.14:628][136]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.47.14:628][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.47.14:628][136]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 7:47:14 PM)
+[2017.08.02-03.47.14:628][136]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.02-03.47.14:709][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081263s)
+[2017.08.02-03.47.14:709][136]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.47.14:709][136]LogPlayLevel: PIE: World Init took: (0.000483s)
+[2017.08.02-03.47.14:710][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.082038s)
+[2017.08.02-03.47.14:757][136]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.47.14:767][136]LogInit: FAudioDevice initialized.
+[2017.08.02-03.47.14:798][136]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.02-03.47.14:825][136]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-23.47.14
+[2017.08.02-03.47.14:836][136]LogWorld: Bringing up level for play took: 0.036889
+[2017.08.02-03.47.14:841][136]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 -0.313
+[2017.08.02-03.47.14:841][136]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.47.17:550][458]Cmd: LevelEditor.ToggleImmersive
+[2017.08.02-03.47.42:726][456]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.47.42:839][456]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.47.46:230][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap01" FILE="../../../../../Github/Project/Despair/Content/Maps/TestMap01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.02-03.47.49:140][795]LogSavePackage: Save=2888.49ms
+[2017.08.02-03.47.49:140][795]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/TestMap01C72D660B4AEC0DBFD9259B99A88631D8.tmp' to '../../../../../Github/Project/Despair/Content/Maps/TestMap01.umap'
+[2017.08.02-03.47.49:142][795]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Maps/TestMap01.umap
+[2017.08.02-03.47.49:226][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap01_BuiltData" FILE="../../../../../Github/Project/Despair/Content/Maps/TestMap01_BuiltData.uasset" SILENT=true
+[2017.08.02-03.47.49:240][795]LogSavePackage: Save=6.61ms
+[2017.08.02-03.47.49:240][795]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/TestMap01_BuiltData8EE3A2D645130A0434546D8C7D86FF38.tmp' to '../../../../../Github/Project/Despair/Content/Maps/TestMap01_BuiltData.uasset'
+[2017.08.02-03.47.49:240][795]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Maps/TestMap01_BuiltData.uasset
+[2017.08.02-03.47.51:870][ 98]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-03.47.51:889][ 98]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.47.51:889][ 98]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-03.47.51:889][ 98]PIE: New page: PIE session: TestMap01 (Aug 1, 2017, 7:47:51 PM)
+[2017.08.02-03.47.51:889][ 98]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap01
+[2017.08.02-03.47.51:970][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080211s)
+[2017.08.02-03.47.51:970][ 98]LogAIModule: Creating AISystem for world TestMap01
+[2017.08.02-03.47.51:971][ 98]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2017.08.02-03.47.51:971][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap01.TestMap01 to /Game/Maps/UEDPIE_0_TestMap01.TestMap01 (0.081239s)
+[2017.08.02-03.47.52:021][ 98]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.02-03.47.52:031][ 98]LogInit: FAudioDevice initialized.
+[2017.08.02-03.47.52:064][ 98]LogLoad: Game class is 'DespairGameMode_BP_C'
+[2017.08.02-03.47.52:125][ 98]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap01.TestMap01 up for play (max tick rate 0) at 2017.08.01-23.47.52
+[2017.08.02-03.47.52:140][ 98]LogWorld: Bringing up level for play took: 0.072753
+[2017.08.02-03.47.52:146][ 98]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMap01 0.992
+[2017.08.02-03.47.52:146][ 98]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.47.53:879][303]Cmd: LevelEditor.ToggleImmersive
+[2017.08.02-03.49.01:597][408]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.49.01:707][408]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap01.TestMap01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01' with GeneratedClass '/Game/Maps/TestMap01.TestMap01_C' with ClassGeneratedBy '/Game/Maps/TestMap01.TestMap01:PersistentLevel.TestMap01'
+[2017.08.02-03.50.10:878][ 86]BlueprintLog: New page: Compile PlayerPawn2_BP
+[2017.08.02-03.50.11:437][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn2_BP" FILE="../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset" SILENT=true
+[2017.08.02-03.50.11:537][112]LogSavePackage: Save=90.66ms
+[2017.08.02-03.50.11:537][112]LogSavePackage: Moving '../../../../../Github/Project/Despair/Saved/PlayerPawn2_BP14F9B66946E5DE80DD40A2AB58B32645.tmp' to '../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset'
+[2017.08.02-03.50.11:537][112]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Project/Despair/Content/Blueprints/PlayerPawn2_BP.uasset
+[2017.08.02-03.50.14:622][394]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.02-03.50.14:624][394]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.02-03.50.14:837][395]Cmd: QUIT_EDITOR
+[2017.08.02-03.50.14:901][395]LogExit: Preparing to exit.
+[2017.08.02-03.50.15:547][395]LogDirectoryWatcher: A directory notification for 'A:/Github/Project/Despair/Content/' was aborted.
+[2017.08.02-03.50.15:593][395]LogExit: Editor shut down
+[2017.08.02-03.50.15:597][395]LogExit: Transaction tracking system shut down
+[2017.08.02-03.50.15:683][395]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.02-03.50.15:683][395]LogExit: Object subsystem successfully closed.
+[2017.08.02-03.50.15:699][395]LogD3D11RHI: Shutdown
+[2017.08.02-03.50.15:699][395]LogD3D11RHI: CleanupD3DDevice
+[2017.08.02-03.50.15:778][395]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.02-03.50.15:785][395]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.08.02-03.50.15:785][395]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.08.02-03.50.15:785][395]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.08.02-03.50.15:785][395]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.08.02-03.50.15:785][395]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2017.08.02-03.50.15:785][395]LogModuleManager: Shutting down and abandoning module WorldBrowser (522)
+[2017.08.02-03.50.15:785][395]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.08.02-03.50.15:785][395]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.08.02-03.50.15:785][395]LogDirectoryWatcher: A directory notification for 'A:/Program Files (x86)/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.02-03.50.15:786][395]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.08.02-03.50.15:786][395]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.08.02-03.50.15:786][395]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.08.02-03.50.15:786][395]LogDirectoryWatcher: A directory notification for 'A:/Github/Project/Despair/Content/Collections/' was aborted.
+[2017.08.02-03.50.15:786][395]LogDirectoryWatcher: A directory notification for 'A:/Github/Project/Despair/Content/Developers/Keith/Collections/' was aborted.
+[2017.08.02-03.50.15:786][395]LogDirectoryWatcher: A directory notification for 'A:/Github/Project/Despair/Saved/Collections/' was aborted.
+[2017.08.02-03.50.15:786][395]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.02-03.50.15:786][395]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.02-03.50.15:786][395]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.02-03.50.15:786][395]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.02-03.50.15:786][395]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.02-03.50.15:786][395]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.02-03.50.15:786][395]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.02-03.50.15:786][395]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.02-03.50.15:786][395]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.02-03.50.15:786][395]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.02-03.50.15:786][395]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.02-03.50.15:786][395]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.02-03.50.15:786][395]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.02-03.50.15:786][395]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.02-03.50.15:787][395]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.02-03.50.16:040][395]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.02-03.50.16:040][395]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.02-03.50.16:040][395]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.02-03.50.16:040][395]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.02-03.50.16:040][395]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.02-03.50.16:040][395]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.02-03.50.16:040][395]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.02-03.50.16:040][395]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.02-03.50.16:040][395]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.02-03.50.16:041][395]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.02-03.50.16:041][395]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.02-03.50.16:041][395]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.02-03.50.16:041][395]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.02-03.50.16:041][395]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.02-03.50.16:041][395]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.02-03.50.16:041][395]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.02-03.50.16:041][395]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.02-03.50.16:041][395]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.02-03.50.16:042][395]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.02-03.50.16:042][395]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.02-03.50.16:042][395]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.02-03.50.16:042][395]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.02-03.50.16:042][395]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.02-03.50.16:042][395]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.02-03.50.16:096][395]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.02-03.50.16:096][395]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.02-03.50.16:096][395]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.02-03.50.16:096][395]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.02-03.50.16:096][395]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.02-03.50.16:096][395]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.02-03.50.16:096][395]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.02-03.50.16:097][395]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.02-03.50.16:097][395]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.02-03.50.16:097][395]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.02-03.50.16:121][395]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.02-03.50.16:125][395]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.02-03.50.16:125][395]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.02-03.50.16:125][395]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.02-03.50.16:125][395]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.02-03.50.16:125][395]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.02-03.50.16:126][395]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.02-03.50.16:126][395]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.02-03.50.16:126][395]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.02-03.50.16:126][395]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.02-03.50.16:126][395]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.02-03.50.16:126][395]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.02-03.50.16:126][395]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.02-03.50.16:126][395]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.02-03.50.16:126][395]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.02-03.50.16:126][395]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.02-03.50.16:126][395]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.02-03.50.16:126][395]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.02-03.50.16:126][395]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.02-03.50.16:126][395]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.02-03.50.16:266][395]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.02-03.50.16:267][395]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.02-03.50.16:267][395]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.02-03.50.16:267][395]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.02-03.50.16:267][395]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.02-03.50.16:267][395]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.02-03.50.16:267][395]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.02-03.50.16:267][395]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.02-03.50.16:267][395]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.02-03.50.16:267][395]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.02-03.50.16:267][395]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.02-03.50.16:267][395]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.02-03.50.16:267][395]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.02-03.50.16:267][395]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.02-03.50.16:267][395]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.02-03.50.16:268][395]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.02-03.50.16:268][395]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.02-03.50.16:268][395]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.02-03.50.16:269][395]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.02-03.50.16:269][395]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.02-03.50.16:269][395]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.02-03.50.16:269][395]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.02-03.50.16:269][395]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.02-03.50.16:269][395]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.02-03.50.16:370][395]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.02-03.50.16:470][395]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.02-03.50.16:470][395]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.02-03.50.16:470][395]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.02-03.50.16:470][395]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.02-03.50.16:470][395]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.02-03.50.16:470][395]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.02-03.50.16:470][395]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.02-03.50.16:470][395]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.02-03.50.16:470][395]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.02-03.50.16:471][395]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.02-03.50.16:473][395]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.02-03.50.16:473][395]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.02-03.50.16:473][395]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.02-03.50.16:473][395]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.02-03.50.16:473][395]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.02-03.50.16:473][395]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.02-03.50.16:716][395]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.02-03.50.16:716][395]LogDirectoryWatcher: A directory notification for '../../../../../Github/Project/Despair/Content/' was aborted.
+[2017.08.02-03.50.16:716][395]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.02-03.50.16:716][395]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.02-03.50.16:720][395]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.02-03.50.16:720][395]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.02-03.50.16:720][395]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.02-03.50.16:720][395]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.02-03.50.16:720][395]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.02-03.50.16:720][395]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.02-03.50.16:720][395]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.02-03.50.16:720][395]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.02-03.50.16:720][395]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.02-03.50.16:751][395]LogDerivedDataCache: Shutdown
+[2017.08.02-03.50.16:751][395]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.02-03.50.16:751][395]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.02-03.50.16:751][395]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.02-03.50.16:751][395]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.02-03.50.16:751][395]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.02-03.50.16:751][395]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.02-03.50.16:751][395]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.02-03.50.16:751][395]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.02-03.50.16:751][395]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.02-03.50.16:751][395]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.02-03.50.16:751][395]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.02-03.50.16:751][395]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.02-03.50.16:751][395]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.02-03.50.16:751][395]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.02-03.50.16:751][395]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.02-03.50.16:752][395]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.02-03.50.16:752][395]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.02-03.50.16:752][395]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.02-03.50.16:752][395]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD22EF3EA-4095-C73B-E981-9DB1F1D327D7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=b674157049ff5d686f7dd79206b81724%7C18e788fe59b64e9283077b7c7a8a30f4%7C8f71e18e-72df-4785-b849-0b773ae68b60&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.02-03.50.16:757][395]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.02-03.50.16:758][395]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.02-03.50.16:758][395]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.02-03.50.16:758][395]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.02-03.50.16:758][395]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.02-03.50.16:758][395]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.02-03.50.16:759][395]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.02-03.50.16:759][395]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.02-03.50.16:759][395]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.02-03.50.16:760][395]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.02-03.50.16:760][395]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.02-03.50.16:760][395]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.02-03.50.16:760][395]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.02-03.50.16:760][395]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.02-03.50.16:760][395]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.02-03.50.16:760][395]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.02-03.50.16:760][395]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.02-03.50.16:760][395]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.02-03.50.16:760][395]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.02-03.50.16:762][395]LogExit: Exiting.
+[2017.08.02-03.50.16:787][395]Log file closed, 08/01/17 23:50:16
